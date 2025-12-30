@@ -30,15 +30,19 @@ Aşağıdaki tabloda, klasör içerisinde yer alan her bir dosyanın teknik amac
 ## 💡 Neler Öğrenilir?
 
 * **Statik Math Metotları**
+
   Nesne oluşturmadan doğrudan sınıf adı üzerinden çağrılan matematiksel araçların kullanımı.
 
 * **Hassas Hesaplamalar**
+
   Ondalıklı sayılarda yuvarlama stratejileri ve kayan noktalı sayı (floating-point) aritmetiği.
 
 * **Oyun Mantığı (Game Logic)**
+
   Rastgele sayı üretimi ile öngörülemez ve dinamik program davranışları tasarlama.
 
 * **Geometrik Modelleme**
+
   Trigonometrik metotlar yardımıyla açı hesaplamaları ve koordinat sistemlerinin yönetimi.
 
 ---
