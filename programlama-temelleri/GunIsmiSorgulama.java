@@ -1,6 +1,6 @@
-
+﻿
 import java.util.Scanner;
-public class Gunler {
+public class GunIsmiSorgulama {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);
@@ -11,11 +11,11 @@ public class Gunler {
 		switch(gun) {
 		case 0 : System.out.println("Bugun gunlerden Pazartesi");
 				break;
-		case 2 : System.out.println("Bugun gunlerden Salı");
+		case 2 : System.out.println("Bugun gunlerden SalÄ±");
 				break;
-		case 3 : System.out.println("Bugun gunlerden Çarşamba");
+		case 3 : System.out.println("Bugun gunlerden Ã‡arÅŸamba");
 				break;
-		case 4 : System.out.println("Bugun gunlerden Perşembe");
+		case 4 : System.out.println("Bugun gunlerden PerÅŸembe");
 				break;
 		case 5 : System.out.println("Bugun gunlerden Cuma");	
 				break;
@@ -23,8 +23,9 @@ public class Gunler {
 				break;
 		case 7 : System.out.println("Bugun gunlerden Pazar");	
 				break;
-		default : System.out.println("Lutfen geçerli bir sayi giriniz");
+		default : System.out.println("Lutfen geÃ§erli bir sayi giriniz");
 				System.exit(1);
 		}
 	}
 }
+

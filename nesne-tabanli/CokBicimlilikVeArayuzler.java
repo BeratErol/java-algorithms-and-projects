@@ -1,5 +1,5 @@
-
-public class TestYenilebilir {
+﻿
+public class CokBicimlilikVeArayuzler {
 
 	public static void main(String[] args) {
 		Object [] nesneler = {new Kaplan(), new Tavuk(), new Elma()} ;
@@ -38,7 +38,7 @@ class Kaplan extends Hayvan{
 }
 
 abstract class Meyve implements Yenilebilir{
-	// Veri alanları, yapıcılar ve metotlar...
+	// Veri alanlarÄ±, yapÄ±cÄ±lar ve metotlar...
 }
 
 class Elma extends Meyve {
@@ -56,9 +56,10 @@ class Portakal extends Meyve{
 }
 
 interface Yenilebilir{
-	// Nasıl yenileceğini tanımla
+	// NasÄ±l yenileceÄŸini tanÄ±mla
 	public abstract String nasilYenir();
 }
+
 
 
 

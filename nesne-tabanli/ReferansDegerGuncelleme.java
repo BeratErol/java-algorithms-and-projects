@@ -1,6 +1,6 @@
-import java.util.Date;
+﻿import java.util.Date;
 
-public class Odev1a2 {
+public class ReferansDegerGuncelleme {
 
 	public static void main(String[] args) {
 		Date date = new Date(1234567);
@@ -15,3 +15,4 @@ public class Odev1a2 {
 	}
 	
 }
+

@@ -1,5 +1,5 @@
-
-public class UstelMetotlar {
+﻿
+public class UstelVeLogaritmikIslemler {
 
 	public static void main(String[] args) {
 		
@@ -20,3 +20,4 @@ public class UstelMetotlar {
 		
 	}
 }
+

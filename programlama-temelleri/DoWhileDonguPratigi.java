@@ -1,5 +1,5 @@
-
-public class doWhileHelloWorld {
+﻿
+public class DoWhileDonguPratigi {
 
 	public static void main(String[] args) {
 
@@ -13,3 +13,4 @@ public class doWhileHelloWorld {
 	}
 
 }
+

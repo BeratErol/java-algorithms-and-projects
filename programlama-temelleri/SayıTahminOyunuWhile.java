@@ -1,6 +1,6 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class SayiTahmini {
+public class SayıTahminOyunuWhile {
 
 	public static void main(String[] args) {
 		
@@ -8,7 +8,7 @@ public class SayiTahmini {
 		
 		Scanner input = new Scanner (System.in);
 		
-		System.out.println("0 ile 100 arasında sihirli bir sayı tahmin ediniz. ");
+		System.out.println("0 ile 100 arasÄ±nda sihirli bir sayÄ± tahmin ediniz. ");
 		
 		int tahmin = -1;
 		
@@ -20,18 +20,19 @@ public class SayiTahmini {
 				System.out.println("Evet, sayi: " + sayi);
 			
 			else if (tahmin > sayi+30)
-				System.out.println("Tahmininiz çok yüksek.");
+				System.out.println("Tahmininiz Ã§ok yÃ¼ksek.");
 			
 			else if (tahmin > sayi)
-				System.out.println("Tahmininiz yüksek.");
+				System.out.println("Tahmininiz yÃ¼ksek.");
 			
 			else if (tahmin < sayi-30)
-				System.out.println("Tahmininiz çok düşük.");
+				System.out.println("Tahmininiz Ã§ok dÃ¼ÅŸÃ¼k.");
 			
 			else 
-				System.out.println("Tahmininiz düşük.");
+				System.out.println("Tahmininiz dÃ¼ÅŸÃ¼k.");
 							}		
 		
 	}
 
 }
+

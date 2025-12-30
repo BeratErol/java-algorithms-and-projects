@@ -1,5 +1,5 @@
-
-public class TV {
+﻿
+public class TelevizyonNesneModeli {
 	int kanal = 1;
 	int sesSeviyesi = 1;
 	boolean acik = false;

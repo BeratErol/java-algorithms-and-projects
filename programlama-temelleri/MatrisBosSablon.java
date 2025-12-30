@@ -1,6 +1,6 @@
-import java.util.Arrays;
+﻿import java.util.Arrays;
 
-public class dizilerÖdev5d {
+public class MatrisBosSablon–dev5d {
 
 	public static void main(String[] args) {
 		
@@ -14,3 +14,4 @@ public class dizilerÖdev5d {
 		
 	}
 }
+

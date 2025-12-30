@@ -1,5 +1,5 @@
-
-public class Odev2a2 {
+﻿
+public class DiziElemanDegisimi {
 
 	public static void main(String[] args) {
 		int [] a = {1, 2};
@@ -15,3 +15,4 @@ public class Odev2a2 {
 	
 	}
 }
+

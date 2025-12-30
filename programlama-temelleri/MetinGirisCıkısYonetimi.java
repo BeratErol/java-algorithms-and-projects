@@ -1,9 +1,9 @@
-import java.util.Scanner;
-public class Stringtipi {
+﻿import java.util.Scanner;
+public class MetinGirisCıkısYonetimi {
 
 	public static void main(String[] args) {
 		Scanner imput = new Scanner (System.in);
-		System.out.print("Boşlukla ayrılmış 3 kelime yazınız: ");
+		System.out.print("BoÅŸlukla ayrÄ±lmÄ±ÅŸ 3 kelime yazÄ±nÄ±z: ");
 		
 		String s1 = imput.next();
 		String s2 = imput.next();
@@ -13,12 +13,12 @@ public class Stringtipi {
 		System.out.println("s2: " + s2);
 		System.out.println("s3: " + s3);
 		
-	// KONSOLDAN SATIR GİRİŞİ
+	// KONSOLDAN SATIR GÄ°RÄ°ÅÄ°
 		
-		Scanner giriş = new Scanner(System.in);
+		Scanner giriÅŸ = new Scanner(System.in);
 		System.out.print("Bir satir yaziniz: ");
 		
-		String s = giriş.nextLine();
+		String s = giriÅŸ.nextLine();
 		System.out.println("Girilen satir: " + s);
 		
 	// KONSOLDAN KARAKTER OKUMA
@@ -28,3 +28,4 @@ public class Stringtipi {
 	}
 
 }
+

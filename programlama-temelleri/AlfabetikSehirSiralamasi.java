@@ -1,5 +1,5 @@
-import java.util.Scanner;
-public class IkiSehirSiralama {
+﻿import java.util.Scanner;
+public class AlfabetikSehirSiralamasi {
 
 	public static void main(String[] args) {
 		
@@ -18,3 +18,4 @@ public class IkiSehirSiralama {
 	}
 
 }
+

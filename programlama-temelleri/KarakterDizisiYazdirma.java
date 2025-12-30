@@ -1,5 +1,5 @@
-
-public class diziDegerGirisi4 {
+﻿
+public class KarakterDizisiYazdirma {
 
 	public static void main(String[] args) {
 		
@@ -9,3 +9,4 @@ public class diziDegerGirisi4 {
 	}
 
 }
+

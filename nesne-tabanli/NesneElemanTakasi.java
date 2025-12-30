@@ -1,5 +1,5 @@
-
-public class Odev2b {
+﻿
+public class NesneElemanTakasi {
 
 	public static void main(String[] args) {
 	T t = new T();

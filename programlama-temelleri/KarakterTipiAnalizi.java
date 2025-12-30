@@ -1,6 +1,6 @@
-
+﻿
 import java.util.Scanner;
-public class girilenkarakterinbulunmasi {
+public class KarakterTipiAnalizi {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);
@@ -16,12 +16,13 @@ public class girilenkarakterinbulunmasi {
 			System.out.println("Girilen karakter bir sayidir.");
 		
 		else if (65<=ch && ch<=90)
-			System.out.println("Girilen karakter büyük harftir.");
+			System.out.println("Girilen karakter bÃ¼yÃ¼k harftir.");
 		
 			else if (97<=ch && ch<=122) 
-		System.out.println("Girilen karakter küçük harftir.");
+		System.out.println("Girilen karakter kÃ¼Ã§Ã¼k harftir.");
 			
 			else
-		System.out.println("Küçük harf , büyük harf ya da sayi olmayan bir karakter girdiniz.");	
+		System.out.println("KÃ¼Ã§Ã¼k harf , bÃ¼yÃ¼k harf ya da sayi olmayan bir karakter girdiniz.");	
 	}
 }
+

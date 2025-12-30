@@ -1,14 +1,15 @@
-
-public class degisken_tipleri {
+﻿
+public class DegiskenKapsamiVeTurleri {
 
 	int a = 5 ;
-	//örnek değişken (instance variable)
+	//Ã¶rnek deÄŸiÅŸken (instance variable)
 	
 	static int c = 30 ;
-	//statik değişken (static variable)
+	//statik deÄŸiÅŸken (static variable)
 	
 	public static void main (String[] args) {
 	int b = 25 ;
-	//yerel değişken (local variable)
+	//yerel deÄŸiÅŸken (local variable)
  } //metodun sonu (end of the method)
-} //sınıfın sonu (end of the class)
+} //sÄ±nÄ±fÄ±n sonu (end of the class)
+

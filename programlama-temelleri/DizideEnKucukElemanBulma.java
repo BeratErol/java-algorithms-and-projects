@@ -1,6 +1,6 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class DiziDenemesi {
+public class DizideEnKucukElemanBulma {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);
@@ -13,17 +13,18 @@ public class DiziDenemesi {
 	}
 		
 	int enKucuk = sayilar[0];
-	int enKucukIndıs = 0;
+	int enKucukIndÄ±s = 0;
 	for(int i=1; i<sayilar.length; i++) {
 		if(enKucuk>sayilar[i]) {
 			enKucuk = sayilar[i];
-			enKucukIndıs=i;          
+			enKucukIndÄ±s=i;          
 			}
 		}
 	
-	System.out.println("En küçük sayi = " + enKucuk);
+	System.out.println("En kÃ¼Ã§Ã¼k sayi = " + enKucuk);
 	
-	System.out.println("İndis = " + enKucukIndıs);
+	System.out.println("Ä°ndis = " + enKucukIndÄ±s);
 	}
 
 }
+

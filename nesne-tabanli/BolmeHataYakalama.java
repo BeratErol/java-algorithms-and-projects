@@ -1,6 +1,6 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class BolmeIstisnaIle {
+public class BolmeHataYakalama {
 	public static int bolme(int sayi1, int sayi2) throws ArithmeticException{
 		if(sayi2 == 0)
 			throw new ArithmeticException("Bolen sifir olamaz");
@@ -25,10 +25,11 @@ public class BolmeIstisnaIle {
 	/*		finally {
 			int cevap = bolme(sayi1, sayi2);
 			System.out.println(cevap);
-		}    													$ finally bloğu ne olursa olsun çalışır.	*/
+		}    													$ finally bloÄŸu ne olursa olsun Ã§alÄ±ÅŸÄ±r.	*/
 		
 		System.out.println("Yurutme devam ediyor...");
 
 	}
 
 }
+

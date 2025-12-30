@@ -1,7 +1,7 @@
-import java.util.InputMismatchException;
+﻿import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class InputMismatchExceptionDemo {
+public class GirisHataYonetimi {
 
 	public static void main(String[] args) {
 		Scanner giris = new Scanner (System.in);
@@ -13,7 +13,7 @@ public class InputMismatchExceptionDemo {
 				System.out.print("Bir tam sayi giriniz: ");
 				int sayi = giris.nextInt();
 				
-				// Sonucu gösterme
+				// Sonucu gÃ¶sterme
 				System.out.println("Girilen sayi " + sayi + " dir.");
 				giriseDevamEt = false;
 			}
@@ -29,3 +29,4 @@ public class InputMismatchExceptionDemo {
 	}
 
 }
+

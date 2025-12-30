@@ -1,5 +1,5 @@
-
-public class IciceDonguOrnek3 {
+﻿
+public class KarmaIsaretliDongu {
 
 	public static void main(String[] args) {
 	
@@ -15,3 +15,4 @@ public class IciceDonguOrnek3 {
 	}
 
 }
+

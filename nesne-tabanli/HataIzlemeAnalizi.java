@@ -1,5 +1,5 @@
-
-public class TestExcepiton {
+﻿
+public class HataIzlemeAnalizi {
 
 	public static void main(String[] args) {
 		
@@ -23,9 +23,10 @@ public class TestExcepiton {
 
 	private static int sum(int[] list) {
 		int result = 0;
-			for(int i=0; i<=list.length; i++) // i<list.length dersek sorunsuz çalışır
+			for(int i=0; i<=list.length; i++) // i<list.length dersek sorunsuz Ã§alÄ±ÅŸÄ±r
 				result += list[i];
 			
 		return result;
 	}
 }
+

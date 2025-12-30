@@ -1,20 +1,21 @@
-
-public class diziler {
+﻿
+public class DinamikDiziHesaplama {
 
 	public static void main(String[] args) {
 		
-		double istediğinDiziİsmi [] = new double [10];
+		double istediÄŸinDiziÄ°smi [] = new double [10];
 		
 		for (int i=0; i<10; i++) 
 		{
 			
-			istediğinDiziİsmi[i]= 10 + 15.2*i;
+			istediÄŸinDiziÄ°smi[i]= 10 + 15.2*i;
 		
-			System.out.println(istediğinDiziİsmi[i]);
+			System.out.println(istediÄŸinDiziÄ°smi[i]);
 			
 		}
 			
-		System.out.println("\n" + istediğinDiziİsmi.length);
+		System.out.println("\n" + istediÄŸinDiziÄ°smi.length);
 	}
 
 }
+

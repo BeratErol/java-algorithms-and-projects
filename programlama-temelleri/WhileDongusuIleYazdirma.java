@@ -1,5 +1,5 @@
-
-public class WhileOdev1a {
+﻿
+public class WhileDongusuIleYazdirma {
 
 	public static void main(String[] args) {
 		
@@ -12,3 +12,4 @@ public class WhileOdev1a {
 	}
 
 }
+

@@ -1,12 +1,12 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class diziDegerGirisi {
+public class DiziyeVeriGirisTemelleri {
 	public static void main(String[] args) {
 		
 		double[] benimDizi = new double [5];
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Lütfen " + benimDizi.length + " sayi giriniz: ");
+		System.out.print("LÃ¼tfen " + benimDizi.length + " sayi giriniz: ");
 		
 		for(int i=0; i<benimDizi.length; i++) 
 			benimDizi[i] = input.nextDouble();
@@ -17,3 +17,4 @@ public class diziDegerGirisi {
 	}
 
 }
+

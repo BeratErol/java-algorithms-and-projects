@@ -1,5 +1,5 @@
-import java.util.Scanner;
-public class Test3 {
+﻿import java.util.Scanner;
+public class MaksimumDegerBulucu {
 
 	public static void main(String[] args) {
 	Scanner input = new Scanner (System.in);
@@ -20,3 +20,4 @@ public class Test3 {
 	}
 
 }
+

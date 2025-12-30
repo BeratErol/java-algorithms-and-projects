@@ -1,6 +1,6 @@
-import java.util.Scanner;	
+﻿import java.util.Scanner;	
 
-public class Sifre {
+public class SifreKontrolSistemi {
 	public static void main(String[] args) { 	
 		
 		String pinKodu = "Yazilim2022";
@@ -21,10 +21,11 @@ public class Sifre {
 				break;}
 			
 			if (pinKodu.equals(giris)==false && i==4) 
-				System.out.println("5 kere yanlış girdiniz.");	
+				System.out.println("5 kere yanlÄ±ÅŸ girdiniz.");	
 		}
 		
 	
 	}
 
 }
+

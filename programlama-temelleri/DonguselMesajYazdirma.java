@@ -1,5 +1,5 @@
-
-public class ForOdev1b {
+﻿
+public class DonguselMesajYazdirma {
 
 	public static void main(String[] args) {
 		
@@ -9,3 +9,4 @@ public class ForOdev1b {
 	}
 
 }
+

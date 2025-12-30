@@ -1,5 +1,5 @@
-
-public class dizilerÖdev5a {
+﻿
+public class MatrisMinimumBulucu–dev5a {
 
 	public static void main(String[] args) {
 		
@@ -24,8 +24,9 @@ public class dizilerÖdev5a {
 			}
 		}
 			
-		System.out.println("En küçük eleman: " + enKucuk + "\nİndisler: Satır " + satir + ", Sütun " + sutun);
+		System.out.println("En kÃ¼Ã§Ã¼k eleman: " + enKucuk + "\nÄ°ndisler: SatÄ±r " + satir + ", SÃ¼tun " + sutun);
 		
 	}
 
 }
+

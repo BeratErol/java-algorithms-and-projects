@@ -1,24 +1,25 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class MantikOperatoru {
+public class MantıksalKarsılastırmalar {
 
 	public static void main(String[] args) {
-		// Tarayıcı nesnesi oluştur
+		// TarayÄ±cÄ± nesnesi oluÅŸtur
 		Scanner giris = new Scanner (System.in);
 		
-		// giriş al
-		System.out.println("Bir tamsayı giriniz = ");
+		// giriÅŸ al
+		System.out.println("Bir tamsayÄ± giriniz = ");
 		int sayi = giris.nextInt();
 		
 		if (sayi % 2 == 0 && sayi % 3 == 0)
-			System.out.println(sayi + " sayisi 2 VE 3'e bölünebilir.");
+			System.out.println(sayi + " sayisi 2 VE 3'e bÃ¶lÃ¼nebilir.");
 		
 		if (sayi % 2 == 0 || sayi % 3 == 0)
-			System.out.println(sayi + " sayisi 2 VEYA 3'e bölünebilir.");
+			System.out.println(sayi + " sayisi 2 VEYA 3'e bÃ¶lÃ¼nebilir.");
 		
 		if (sayi % 2 ==0 ^ sayi % 3 ==0)
-			System.out.println(sayi + " sayisi 2 VEYA 3'e bölünebilir , her ikisine birden bölünemez."); 
+			System.out.println(sayi + " sayisi 2 VEYA 3'e bÃ¶lÃ¼nebilir , her ikisine birden bÃ¶lÃ¼nemez."); 
 
 	}
 
 }
+

@@ -1,5 +1,5 @@
-
-public class TestKutu {
+﻿
+public class HacimHesaplamaModeli {
 
 	public static void main(String[] args) {
 		Kutu kutu1 = new Kutu (3.0, 4.0, 5.0);
@@ -12,17 +12,18 @@ public class TestKutu {
 class Kutu{
 	double en;
 	double boy;
-	double yükseklik;
+	double yÃ¼kseklik;
 	
-	Kutu(double en, double boy, double yükseklik) {
+	Kutu(double en, double boy, double yÃ¼kseklik) {
 		this.en = en;
 		this.boy = boy;
-		this.yükseklik = yükseklik;
+		this.yÃ¼kseklik = yÃ¼kseklik;
 	}
 	
 	public void getHacim() {
-		double hacim = en * boy * yükseklik;
-		System.out.println("eni " + en + ", boyu " + boy + ", yükseliği " + yükseklik + " olan kutunun hacmi: " + hacim);
+		double hacim = en * boy * yÃ¼kseklik;
+		System.out.println("eni " + en + ", boyu " + boy + ", yÃ¼kseliÄŸi " + yÃ¼kseklik + " olan kutunun hacmi: " + hacim);
 	}
 
 }
+

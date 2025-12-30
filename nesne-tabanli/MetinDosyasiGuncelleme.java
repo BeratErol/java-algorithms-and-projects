@@ -1,11 +1,11 @@
-import java.io.*;
+﻿import java.io.*;
 import java.util.*;
 
-public class MetinDegisme {
+public class MetinDosyasiGuncelleme {
 
 	public static void main(String[] args) throws Exception {
 		
-		// Komut satırı parametre kullanımını kontrol etme
+		// Komut satÄ±rÄ± parametre kullanÄ±mÄ±nÄ± kontrol etme
 		if(args.length != 4) {
 		    System.out.println("Kullanim: java MetinDegisme Bolumler Bolumler_v1 Bilgisayar Yazilim");
 		    System.exit(1);
@@ -25,7 +25,7 @@ public class MetinDegisme {
 			System.exit(3);
 		}
 		try(
-			// giris ve cikis dosyalarini oluşturma
+			// giris ve cikis dosyalarini oluÅŸturma
 			Scanner giris = new Scanner (Bolumler);
 			PrintWriter cikis = new PrintWriter(Bolumler_v1);
 			){
@@ -38,5 +38,6 @@ public class MetinDegisme {
 			
 	}
 }
+
 
 

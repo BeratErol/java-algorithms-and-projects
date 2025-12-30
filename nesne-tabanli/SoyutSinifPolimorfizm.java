@@ -1,5 +1,5 @@
-
-public class TestGeometrikSekil {
+﻿
+public class SoyutSinifPolimorfizm {
 
 	public static void main(String[] args) {
 		// Iki geometrik nesne olustur
@@ -10,16 +10,16 @@ public class TestGeometrikSekil {
 		
 		// Cemberi goster
 		gosterTemelGeometrikSekil(geoNesne1);
-		// Diktörgeni goster
+		// DiktÃ¶rgeni goster
 		gosterTemelGeometrikSekil(geoNesne2);
 	}
 		
-		// Iki geometrik nesnenin alanını karşılaştıran metot
+		// Iki geometrik nesnenin alanÄ±nÄ± karÅŸÄ±laÅŸtÄ±ran metot
 		public static boolean esitAlan(TemelGeometrikSekil nesne1,TemelGeometrikSekil nesne2) {
 			return nesne1.getAlan() == nesne2.getAlan();
 		}
 		
-		// Geometrik nesneyi gösteren metot
+		// Geometrik nesneyi gÃ¶steren metot
 		public static void gosterTemelGeometrikSekil(TemelGeometrikSekil nesne) {
 			System.out.println();
 			System.out.println("Alan: " + nesne.getAlan());
@@ -27,5 +27,6 @@ public class TestGeometrikSekil {
 		}
 		
 	}
+
 
 

@@ -1,8 +1,8 @@
-
- public class Test_2 {
+﻿
+ public class SyntaxHataGosterimi {
  public static void main (String[] args) {
 	System.out.println("Welcome to Java!");
-	// Hatalar= static yazılmamış , tırnak yanlış , main büyük harfle yazılmaz.
+	// Hatalar= static yazÄ±lmamÄ±ÅŸ , tÄ±rnak yanlÄ±ÅŸ , main bÃ¼yÃ¼k harfle yazÄ±lmaz.
 	/*
 	 Hata Kodu:Exception in thread "main" java.lang.Error: Unresolved compilation problems: 
 	Syntax error, insert ")" to complete MethodInvocation
@@ -16,3 +16,4 @@
 	 */
 }
 }
+

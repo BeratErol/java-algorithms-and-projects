@@ -1,5 +1,5 @@
-
-public class Odev2a {
+﻿
+public class DegerleCagirmaTesti {
 
 	public static void main(String[] args) {
 		int [] a = {1, 2};

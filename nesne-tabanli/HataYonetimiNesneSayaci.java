@@ -1,5 +1,5 @@
-
-public class TestCemberIstisnaIle {
+﻿
+public class HataYonetimiNesneSayaci {
 
 	public static void main(String[] args) {
 		
@@ -12,9 +12,10 @@ public class TestCemberIstisnaIle {
 			System.out.println(ex);
 		}
   
-		// 2.nesne catche girdikten sonra 3.nesne geçildiği için oluşturulan nesne sayısı 1 olur.
+		// 2.nesne catche girdikten sonra 3.nesne geÃ§ildiÄŸi iÃ§in oluÅŸturulan nesne sayÄ±sÄ± 1 olur.
 		System.out.println("Olusturulan nesne sayisi: " + CemberIstisnaIle.getNesneSayisi());
 		
 	}
 
 }
+

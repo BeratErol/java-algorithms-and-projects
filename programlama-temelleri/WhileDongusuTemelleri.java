@@ -1,5 +1,5 @@
-
-public class Donguler { //While
+﻿
+public class WhileDongusuTemelleri { //While
 
 	public static void main(String[] args) {
 		
@@ -22,3 +22,4 @@ public class Donguler { //While
 	}
 
 }
+

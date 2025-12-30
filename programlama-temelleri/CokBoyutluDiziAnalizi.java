@@ -1,5 +1,5 @@
-
-public class cokBoyutluDizi {
+﻿
+public class CokBoyutluDiziAnalizi {
 
 	public static void main(String[] args) {
 		
@@ -20,3 +20,4 @@ public class cokBoyutluDizi {
 	}
 
 }
+

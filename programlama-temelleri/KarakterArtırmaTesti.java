@@ -1,5 +1,5 @@
-
-public class Test4 {
+﻿
+public class KarakterArtırmaTesti {
 
 	public static void main(String[] args) {
 		
@@ -11,3 +11,4 @@ public class Test4 {
 	}
 
 }
+

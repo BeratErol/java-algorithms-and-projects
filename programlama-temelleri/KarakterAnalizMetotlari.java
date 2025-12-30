@@ -1,22 +1,23 @@
-
-public class charkarsilastirma {
+﻿
+public class KarakterAnalizMetotlari {
 
 	public static void main(String[] args) {
 		
 		char ch = 'a' ;
 		
-		// Character SINIFINDAKİ METOTLAR:
+		// Character SINIFINDAKÄ° METOTLAR:
 		
-		System.out.println("isDigit('a') " + Character.isDigit('a')); //Belirtilen karakter sayı ise true döndürür.
-		System.out.println("isLetter('a') " + Character.isLetter('a')); //Belirtilen karakter harf ise true döndürür.
-		System.out.println("isLetterofDigit('0') " + Character.isLetterOrDigit('0')); //Belirtilen karakter sayı veya harf ise true döndürür.
-		System.out.println("isLowerCase('a') " + Character.isLowerCase('a')); //Belirtilen karakter küçük harf ise true döndürür.
-		System.out.println("isUpperCase('a') " + Character.isUpperCase('a')); //Belirtilen karakter BÜYÜK harf ise true döndürür.
-		System.out.println("toLowerCase('Z') " + Character.toLowerCase('Z')); //Belirtilen karakteri küçük harfe çevirir.
-		System.out.println("toUpperCase('a') " + Character.toUpperCase('a')); //Belirtilen karakteri BÜYÜK harfe çevirir.
+		System.out.println("isDigit('a') " + Character.isDigit('a')); //Belirtilen karakter sayÄ± ise true dÃ¶ndÃ¼rÃ¼r.
+		System.out.println("isLetter('a') " + Character.isLetter('a')); //Belirtilen karakter harf ise true dÃ¶ndÃ¼rÃ¼r.
+		System.out.println("isLetterofDigit('0') " + Character.isLetterOrDigit('0')); //Belirtilen karakter sayÄ± veya harf ise true dÃ¶ndÃ¼rÃ¼r.
+		System.out.println("isLowerCase('a') " + Character.isLowerCase('a')); //Belirtilen karakter kÃ¼Ã§Ã¼k harf ise true dÃ¶ndÃ¼rÃ¼r.
+		System.out.println("isUpperCase('a') " + Character.isUpperCase('a')); //Belirtilen karakter BÃœYÃœK harf ise true dÃ¶ndÃ¼rÃ¼r.
+		System.out.println("toLowerCase('Z') " + Character.toLowerCase('Z')); //Belirtilen karakteri kÃ¼Ã§Ã¼k harfe Ã§evirir.
+		System.out.println("toUpperCase('a') " + Character.toUpperCase('a')); //Belirtilen karakteri BÃœYÃœK harfe Ã§evirir.
 		
 		
 		
 	}
 
 }
+

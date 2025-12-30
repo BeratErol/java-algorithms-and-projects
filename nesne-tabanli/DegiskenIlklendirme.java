@@ -1,5 +1,5 @@
-
-public class TestXY {
+﻿
+public class DegiskenIlklendirme {
 
 	public static void main(String[] args) {
 		
@@ -13,4 +13,4 @@ public class TestXY {
 
 }
 
-	// x ve y atanmaz direkt noktalı virgül koyulursa hata verir.
+	// x ve y atanmaz direkt noktalÄ± virgÃ¼l koyulursa hata verir.

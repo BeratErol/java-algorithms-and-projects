@@ -1,5 +1,5 @@
-
-public class TestCemberIstisnaIle2 {
+﻿
+public class CokluHataBloklari {
 
 	public static void main(String[] args) {
 		
@@ -29,3 +29,4 @@ public class TestCemberIstisnaIle2 {
 	}
 
 }
+

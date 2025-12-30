@@ -1,5 +1,5 @@
-
-public class DiziSinirlari {
+﻿
+public class DiziHataYonetimi {
 
 	public static void main(String[] args) {
 		
@@ -13,9 +13,10 @@ public class DiziSinirlari {
 				System.out.println(toplam);
 						
 		}catch (IndexOutOfBoundsException ex) {
-			System.out.println("Dizinin sınırları aşıldı!");
+			System.out.println("Dizinin sÄ±nÄ±rlarÄ± aÅŸÄ±ldÄ±!");
 		}
 		
 	}
 
 }
+

@@ -1,5 +1,5 @@
-import java.util.Scanner;
-public class BütünlemeMevsimler {
+﻿import java.util.Scanner;
+public class DiziIleMevsimSorgulama¼tÃ¼nlemeMevsimler {
 
 	public static void main(String[] args) {
 		
@@ -13,3 +13,4 @@ public class BütünlemeMevsimler {
 	}
 
 }
+

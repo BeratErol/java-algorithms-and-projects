@@ -1,15 +1,15 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class EnBuyukOrtakBolen {
+public class EBOBHesaplama {
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);
 	
-		System.out.print("Ilk tamsayıyı giriniz: ");
+		System.out.print("Ilk tamsayÄ±yÄ± giriniz: ");
 		int sayi1 = input.nextInt();
-		System.out.print("Ikinci tamsayıyı giriniz: ");
+		System.out.print("Ikinci tamsayÄ±yÄ± giriniz: ");
 		int sayi2 = input.nextInt();
 		
-		int ebob = 1;  // baslangic ebob (sayılar asal olsa bile ebob en küçük 1 olur.)
+		int ebob = 1;  // baslangic ebob (sayÄ±lar asal olsa bile ebob en kÃ¼Ã§Ã¼k 1 olur.)
 		int k = 2 ;    // potansiyel ebob
 		
 		while(k <= sayi1 && k <= sayi2) {
@@ -22,3 +22,4 @@ public class EnBuyukOrtakBolen {
 	}
 
 }
+

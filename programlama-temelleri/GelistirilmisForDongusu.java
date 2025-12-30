@@ -1,10 +1,10 @@
+﻿
 
-
-public class Listeforeach {
+public class GelistirilmisForDongusu {
 
 	public static void main(String[] args) {
 		
-		String[] aylar = {"Ocak", "Subat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Agustos", "Eylül", "Ekim", "Kasım", "Aralık"};
+		String[] aylar = {"Ocak", "Subat", "Mart", "Nisan", "MayÄ±s", "Haziran", "Temmuz", "Agustos", "EylÃ¼l", "Ekim", "KasÄ±m", "AralÄ±k"};
 		int[] sayilar = {2, 5, 8};
 		
 		for (String e: aylar) {
@@ -18,3 +18,4 @@ public class Listeforeach {
 	}
 
 }
+

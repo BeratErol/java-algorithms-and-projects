@@ -1,5 +1,5 @@
-
-public class CarpimTablosuTabloIndisleriveIndisToplamlari {
+﻿
+public class IndisVeToplamAnalizi {
 	public static void main(String[] args) {
 		
 		System.out.println("                Tablo Indisleri ve Indis Toplamlari");
@@ -22,3 +22,4 @@ public class CarpimTablosuTabloIndisleriveIndisToplamlari {
 	}
 
 }
+

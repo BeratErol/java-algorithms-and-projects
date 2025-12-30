@@ -1,36 +1,37 @@
-
+﻿
 import java.util.Scanner;
-public class TasKagitMakas { //class ismi oluşturuken türkçe karakter kullanma.
+public class TasKagıtMakasOyunu { //class ismi oluÅŸturuken tÃ¼rkÃ§e karakter kullanma.
 
 	public static void main(String[] args) {
 		
-		int sistemincevabı = (int)(Math.random()*3);
+		int sistemincevabÄ± = (int)(Math.random()*3);
 		
 		Scanner input = new Scanner (System.in);
-		System.out.println("taş(0),kağıt(1),makas(2) hangisi? : ");
+		System.out.println("taÅŸ(0),kaÄŸÄ±t(1),makas(2) hangisi? : ");
 		
 		int girilensayi = input.nextInt();
 		
 		if (girilensayi<0 || girilensayi>2)
-			System.out.println("Geçerli aralıkta bir sayı giriniz!!!");
+			System.out.println("GeÃ§erli aralÄ±kta bir sayÄ± giriniz!!!");
 		
-		else if (girilensayi==0 & sistemincevabı==0)
-			System.out.println("Bilgisayar taş, sen taş. BERABERE!");
-		else if (girilensayi==1 & sistemincevabı==1)
-			System.out.println("Bilgisayar kağıt, sen kağıt. BERABERE!");
-		else if (girilensayi==2 & sistemincevabı==2)
+		else if (girilensayi==0 & sistemincevabÄ±==0)
+			System.out.println("Bilgisayar taÅŸ, sen taÅŸ. BERABERE!");
+		else if (girilensayi==1 & sistemincevabÄ±==1)
+			System.out.println("Bilgisayar kaÄŸÄ±t, sen kaÄŸÄ±t. BERABERE!");
+		else if (girilensayi==2 & sistemincevabÄ±==2)
 		System.out.println("Bilgisayar makas, sen makas. BERABERE!");
-		else if (girilensayi==1 & sistemincevabı==0)
-				System.out.println("Bilgisayar taş, sen kağıt. KAZANDIN!");
-		else if (girilensayi==2 & sistemincevabı==0)
-			System.out.println("Bilgisayar taş, sen makas. KAYBETTİN!");
-		else if (girilensayi==0 & sistemincevabı==1)
-			System.out.println("Bilgisayar kağıt, sen taş. KAYBETTİN!");
-		else if (girilensayi==2 & sistemincevabı==1)
-			System.out.println("Bilgisayar kağıt, sen makas. KAZANDIN!");
-		else if (girilensayi==0 & sistemincevabı==2)
-			System.out.println("Bilgisayar makas, sen taş. KAZANDIN!");
+		else if (girilensayi==1 & sistemincevabÄ±==0)
+				System.out.println("Bilgisayar taÅŸ, sen kaÄŸÄ±t. KAZANDIN!");
+		else if (girilensayi==2 & sistemincevabÄ±==0)
+			System.out.println("Bilgisayar taÅŸ, sen makas. KAYBETTÄ°N!");
+		else if (girilensayi==0 & sistemincevabÄ±==1)
+			System.out.println("Bilgisayar kaÄŸÄ±t, sen taÅŸ. KAYBETTÄ°N!");
+		else if (girilensayi==2 & sistemincevabÄ±==1)
+			System.out.println("Bilgisayar kaÄŸÄ±t, sen makas. KAZANDIN!");
+		else if (girilensayi==0 & sistemincevabÄ±==2)
+			System.out.println("Bilgisayar makas, sen taÅŸ. KAZANDIN!");
 		else 
-			System.out.println("Bilgisayar makas, sen kağıt. KAYBETTİN!");
+			System.out.println("Bilgisayar makas, sen kaÄŸÄ±t. KAYBETTÄ°N!");
 	}
 }
+

@@ -1,12 +1,12 @@
-
-public class BKISinifKullanimi {
+﻿
+public class VucutKitleIndeksiHesapla {
 
 	public static void main(String[] args) {
 		
 		BKI bki1 = new BKI("Berat Erol", 20, 76, 1.84);
 		System.out.println(bki1.getIsim() + " icin BKI: " + bki1.getBKI() + " " + bki1.getDurum());
 		
-		BKI bki2 = new BKI("Gözde Duygu Polat", 58, 1.63);
+		BKI bki2 = new BKI("GÃ¶zde Duygu Polat", 58, 1.63);
 		System.out.println(bki2.getIsim() + " icin BKI: " + bki2.getBKI() + " " + bki2.getDurum());
 	}
 
@@ -63,6 +63,7 @@ class BKI {
 		return boy;
 	}
 }
+
 
 
 

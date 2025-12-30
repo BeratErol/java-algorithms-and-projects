@@ -1,5 +1,5 @@
-
-public class TemelGeometrikSekildenDikdortgen extends TemelGeometrikSekil {
+﻿
+public class GeometrikDikdortgenSinifi extends TemelGeometrikSekil {
 
 	private double genislik;
 	private double yukseklik;

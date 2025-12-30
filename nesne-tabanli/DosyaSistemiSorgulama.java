@@ -1,11 +1,11 @@
-
-public class TestFileClass2 {
+﻿
+public class DosyaSistemiSorgulama {
 
 	public static void main(String[] args) {
 		
 		java.io.File dosya1 = new java.io.File("deneme.txt");
 		
-		System.out.println("Bu dosya var mı? " + dosya1.exists());
+		System.out.println("Bu dosya var mÄ±? " + dosya1.exists());
 		System.out.println("Dosyanin uzunlugu " + dosya1.length() + " bytes");
 		System.out.println("Dosya okunabilir mi? " + dosya1.canRead());
 		System.out.println("Dosya yazilabilir mi? " + dosya1.canWrite());
@@ -19,3 +19,4 @@ public class TestFileClass2 {
 	}
 
 }
+

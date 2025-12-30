@@ -1,26 +1,26 @@
-
-public class DiziSiralamaSinav {
+﻿
+public class DiziSıralamaAlgoritması {
 
 	public static void main(String[] args) {
 		
 		int[] dizi = {-56, 2, 3, 0, 8, 6, 7, 8, 9, -5};
 		
-		int enKucukIndıs, n = dizi.length;
+		int enKucukIndÄ±s, n = dizi.length;
 		int enKucuk, temp;
 		
 		for(int i=0; i<n; i++) {
 			enKucuk= dizi[i];
-			enKucukIndıs=i;
+			enKucukIndÄ±s=i;
 			
 			for(int j=i; j<n; j++) {
 				if(enKucuk>=dizi[j]) {
 					enKucuk= dizi[j];
-					enKucukIndıs=j; }
+					enKucukIndÄ±s=j; }
 			}
 			
 			temp = dizi[i];
-			dizi[i] = dizi[enKucukIndıs];
-			dizi[enKucukIndıs] = temp;
+			dizi[i] = dizi[enKucukIndÄ±s];
+			dizi[enKucukIndÄ±s] = temp;
 		}
 		
 		for (int i=0; i<n; i++)
@@ -30,3 +30,4 @@ public class DiziSiralamaSinav {
 	}
 
 }
+

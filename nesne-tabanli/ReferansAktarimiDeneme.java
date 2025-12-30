@@ -1,6 +1,6 @@
-import java.util.Date;
+﻿import java.util.Date;
 
-public class Odev1a {
+public class ReferansAktarimiDeneme {
 
 	public static void main(String[] args) {
 		
@@ -16,3 +16,4 @@ public class Odev1a {
 	}
 	
 }
+

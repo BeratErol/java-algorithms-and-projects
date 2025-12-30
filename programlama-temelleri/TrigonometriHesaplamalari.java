@@ -1,5 +1,5 @@
-
-public class TrigonometrikMetotlar {
+﻿
+public class TrigonometriHesaplamalari {
 public static void main (String[] args) {
 	
 
@@ -23,3 +23,4 @@ public static void main (String[] args) {
 		
 }
 }
+

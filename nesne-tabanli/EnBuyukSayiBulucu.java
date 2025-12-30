@@ -1,12 +1,12 @@
-
-public class TestEnBuyuk {
+﻿
+public class EnBuyukSayiBulucu {
 
 	public static void main(String[] args) {
 		
 		int i = 5;
 		int j = 2;
 		int k = enBuyuk(i, j);
-		System.out.println(i + " ve " + j + "'nin en büyüğü " + k + "'dir");
+		System.out.println(i + " ve " + j + "'nin en bÃ¼yÃ¼ÄŸÃ¼ " + k + "'dir");
 			
 	}
 	
@@ -23,3 +23,4 @@ public class TestEnBuyuk {
 	}
 
 }
+

@@ -1,5 +1,5 @@
-
-public class TestnPrintln {
+﻿
+public class TekrarliMesajYazdirici {
 
 	public static void main(String[] args) {
 		nPrintln("Merhaba", 5);
@@ -10,3 +10,4 @@ public class TestnPrintln {
 			System.out.println(mesaj);
 	}
 }
+

@@ -1,9 +1,9 @@
-
-public class Stringözellikleri {
+﻿
+public class MetinUzunluguVeBirlestirme¶zellikleri {
 
 	public static void main(String[] args) {
 	
-		String mesaj = "Merhaba Dünya";
+		String mesaj = "Merhaba DÃ¼nya";
 		
 		System.out.println(mesaj + " mesajinin uzunlugu " + mesaj.length() + " dir.");
 		
@@ -21,3 +21,4 @@ public class Stringözellikleri {
 	
 	}
 }
+

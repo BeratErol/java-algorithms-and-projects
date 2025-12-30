@@ -1,7 +1,7 @@
-
+﻿
 import java.util.Scanner;
 
-public class TemelIfDemo {
+public class BolunebilirlikKontrolü {
 
 	public static void main(String[] args) {
 	Scanner input = new Scanner (System.in);
@@ -16,3 +16,4 @@ public class TemelIfDemo {
 	}
 
 }
+

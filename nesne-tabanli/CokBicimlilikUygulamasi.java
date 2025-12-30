@@ -1,5 +1,5 @@
-
-public class CokbicimlilikDemo {
+﻿
+public class CokBicimlilikUygulamasi {
 
 	public static void main(String[] args) {
 		
@@ -14,3 +14,4 @@ public class CokbicimlilikDemo {
 	}
 	
 }
+

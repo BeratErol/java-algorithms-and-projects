@@ -1,12 +1,12 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class VeriOkuma {
+public class DosyaOkumaScanner {
 
 	public static void main(String[] args) throws Exception {
-		// File örneği oluşturma
+		// File Ã¶rneÄŸi oluÅŸturma
 		java.io.File dosya = new java.io.File("puan_listesi.txt");
 		
-		// Dosya için bir Scanner oluşturma
+		// Dosya iÃ§in bir Scanner oluÅŸturma
 		Scanner giris = new Scanner(dosya);
 		
 		// Dsoyadan veri okuma
@@ -18,8 +18,9 @@ public class VeriOkuma {
 			System.out.println(isim+ " " + soyIsim + " " + dersAdi + " " + notDegeri);
 		}
 
-		// Dosyayı kapatma
+		// DosyayÄ± kapatma
 		giris.close();
 	}
 
 }
+

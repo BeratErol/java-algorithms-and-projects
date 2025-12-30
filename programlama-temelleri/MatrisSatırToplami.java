@@ -1,5 +1,5 @@
-
-public class dizilerÖdev6 {
+﻿
+public class MatrisSatırToplami–dev6 {
 
 	public static void main(String[] args) {
 		
@@ -35,3 +35,4 @@ public class dizilerÖdev6 {
 	}
 
 }
+

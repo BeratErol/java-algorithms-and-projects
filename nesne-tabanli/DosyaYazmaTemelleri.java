@@ -1,6 +1,6 @@
-import java.io.*;
+﻿import java.io.*;
 
-public class VeriYazma {
+public class DosyaYazmaTemelleri {
 
 	public static void main(String[] args) throws IOException {
 		
@@ -11,7 +11,7 @@ public class VeriYazma {
 				System.exit(1);
 			}
 		
-		// Dosya oluşturma
+		// Dosya oluÅŸturma
 		PrintWriter cikis = new PrintWriter(dosya2);
 		
 		// Dosyaya yazma 
@@ -20,9 +20,10 @@ public class VeriYazma {
 		cikis.print("Diger Kisi Algoritma ");
 		cikis.println(90);
 		
-		// Dosyayı kapatma
+		// DosyayÄ± kapatma
 		cikis.close();
 
 	}
 
 }
+

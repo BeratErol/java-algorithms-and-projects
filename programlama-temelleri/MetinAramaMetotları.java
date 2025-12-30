@@ -1,5 +1,5 @@
-
-public class KarakteryadaAltStringBulma {
+﻿
+public class MetinAramaMetotları {
 
 	public static void main(String[] args) {
 	
@@ -14,7 +14,7 @@ public class KarakteryadaAltStringBulma {
 		System.out.println("Merhaba Dunya".lastIndexOf('M'));
 		System.out.println("Merhaba Dunya".lastIndexOf('a'));
 		
-		//Baştan 5 hane sayıp 5.haneden yani bu örnekte 'b' den başlayıp başa doğru tarama yapar.
+		//BaÅŸtan 5 hane sayÄ±p 5.haneden yani bu Ã¶rnekte 'b' den baÅŸlayÄ±p baÅŸa doÄŸru tarama yapar.
 		System.out.println("Merhaba Dunya".lastIndexOf('a',5));
 		
 		System.out.println("Merhaba Dunya".lastIndexOf("haba"));
@@ -24,3 +24,4 @@ public class KarakteryadaAltStringBulma {
 	}
 
 }
+

@@ -1,5 +1,5 @@
-import java.util.Scanner;
-public class LogSinavSorusu {
+﻿import java.util.Scanner;
+public class LogaritmaHesaplayici {
 
 	public static void main(String[] args) {
 		
@@ -17,3 +17,4 @@ public class LogSinavSorusu {
 	}
 
 }
+

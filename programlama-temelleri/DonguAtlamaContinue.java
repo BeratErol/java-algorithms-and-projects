@@ -1,5 +1,5 @@
-
-public class ContinueTesti {
+﻿
+public class DonguAtlamaContinue {
 
 	public static void main(String[] args) {
 		

@@ -1,5 +1,5 @@
-
-public class TemelGeometrikSekildenCember extends TemelGeometrikSekil {
+﻿
+public class GeometrikCemberSinifi extends TemelGeometrikSekil {
 
 	private double yaricap; 
 	
@@ -12,15 +12,15 @@ public class TemelGeometrikSekildenCember extends TemelGeometrikSekil {
 	}
 	
 	public TemelGeometrikSekildenCember(double yaricap, String renk, boolean dolgu) {
-		super (renk, dolgu);     // Üst sınıf kurucusunu çağırmak için super anahtar kelimesini kullanmamız gerekir ve çağrı, yapıcıdaki ilk ifade olmalıdır.
+		super (renk, dolgu);     // Ãœst sÄ±nÄ±f kurucusunu Ã§aÄŸÄ±rmak iÃ§in super anahtar kelimesini kullanmamÄ±z gerekir ve Ã§aÄŸrÄ±, yapÄ±cÄ±daki ilk ifade olmalÄ±dÄ±r.
 		this.yaricap = yaricap;
 		
-	/*   this.yaricap = yaricap;   // Bu kullanım da doğrudur
+	/*   this.yaricap = yaricap;   // Bu kullanÄ±m da doÄŸrudur
 		 setRenk(renk);
 		 setDolgu(dolgu); 
 	*/
 		
-	// this.renk; this.dolgu;   renk ve dolgu private olduğu için yanlış kullanımdır.
+	// this.renk; this.dolgu;   renk ve dolgu private olduÄŸu iÃ§in yanlÄ±ÅŸ kullanÄ±mdÄ±r.
 		
 	}
 	
@@ -50,9 +50,10 @@ public class TemelGeometrikSekildenCember extends TemelGeometrikSekil {
 	}
 	
 	public String toString() {
-		return super.toString() + "\n yari cap: " + yaricap;  // Method overriding (method geçersiz kılma)
+		return super.toString() + "\n yari cap: " + yaricap;  // Method overriding (method geÃ§ersiz kÄ±lma)
 	}
 	
 	
 }
+
 

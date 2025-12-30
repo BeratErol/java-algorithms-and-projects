@@ -1,6 +1,6 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class TekrarliToplamaTestiDoWhile {
+public class MatematikTestiDoWhile {
 	public static void main(String[] args) {
 	
 		int sayi1 = (int)(Math.random()*10);
@@ -13,14 +13,15 @@ public class TekrarliToplamaTestiDoWhile {
 		
 		do {
 			if (sayi1 + sayi2 != cevap) {
-			System.out.println("Yanlış cevap , tekrar deneyiniz!\n" + (sayi1 + " + " + sayi2 + " sonucu nedir ?"));
+			System.out.println("YanlÄ±ÅŸ cevap , tekrar deneyiniz!\n" + (sayi1 + " + " + sayi2 + " sonucu nedir ?"));
 			
 			cevap = input.nextInt();}
 			
 			if (sayi1 + sayi2 == cevap) 
-				System.out.println("Tebrikler doğru bildiniz.");
+				System.out.println("Tebrikler doÄŸru bildiniz.");
 			
 		} while (sayi1 + sayi2 != cevap);
 		
 	}
 }
+

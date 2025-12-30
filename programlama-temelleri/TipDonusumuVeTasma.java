@@ -1,13 +1,13 @@
-
-public class Degisken_icin_kod_ornekleri {
+﻿
+public class TipDonusumuVeTasma {
     public static void main (String[] args) {
     	float b = 23.58f ;
-    	//int a=b; //derleme hatası
+    	//int a=b; //derleme hatasÄ±
     	int a = (int)b ;
     	System.out.println(b);
     	System.out.println(a);
     	
-    	//Overflow(Taşma)
+    	//Overflow(TaÅŸma)
     	int c = -360;
     	byte d = (byte)c ;
     	System.out.println(c);
@@ -18,3 +18,4 @@ public class Degisken_icin_kod_ornekleri {
 	
 	
 }
+

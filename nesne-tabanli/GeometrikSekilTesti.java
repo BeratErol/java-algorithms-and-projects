@@ -1,5 +1,5 @@
-
-public class TestCemberDikdortgen {
+﻿
+public class GeometrikSekilTesti {
 
 	public static void main(String[] args) {
 		
@@ -20,3 +20,4 @@ public class TestCemberDikdortgen {
 	}
 
 }
+

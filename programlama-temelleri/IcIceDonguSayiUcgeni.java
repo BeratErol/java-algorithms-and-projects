@@ -1,5 +1,5 @@
-
-public class IciceDonguOrnek {
+﻿
+public class IcIceDonguSayiUcgeni {
 
 	public static void main(String[] args) {
 		
@@ -13,4 +13,5 @@ public class IciceDonguOrnek {
 	}
 
 }
+
 

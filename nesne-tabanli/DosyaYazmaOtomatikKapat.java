@@ -1,6 +1,6 @@
-import java.io.*;
+﻿import java.io.*;
 
-public class VeriYazmaOtomatikKapatmaIle {
+public class DosyaYazmaOtomatikKapat {
 
 	public static void main(String[] args) throws Exception {
 		
@@ -12,7 +12,7 @@ public class VeriYazmaOtomatikKapatmaIle {
 			}
 
 			try (
-				// Dosya oluşturma
+				// Dosya oluÅŸturma
 				PrintWriter cikis = new PrintWriter(dosya3);
 			){
 				// Dosyaya yazma
@@ -25,3 +25,4 @@ public class VeriYazmaOtomatikKapatmaIle {
 	}
 
 }
+

@@ -1,6 +1,6 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class DizilerFibonacciSinav {
+public class FibonacciDizisiOlusturma {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner (System.in);
@@ -21,3 +21,4 @@ public class DizilerFibonacciSinav {
 	}
 
 }
+

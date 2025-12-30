@@ -1,5 +1,5 @@
-
-public class dizilerÖdev5c {
+﻿
+public class MatrisDizilestirme–dev5c {
 
 	public static void main(String[] args) {
 		
@@ -12,11 +12,11 @@ public class dizilerÖdev5c {
 
 		int[] yenidizi = new int [12];
 		
-		int döngüsayaci = 0;
+		int dÃ¶ngÃ¼sayaci = 0;
 		for(int i=0; i<dizi.length; i++) {
 			for(int j=0; j<dizi.length-1; j++) {
-				yenidizi[döngüsayaci] = dizi[i][j];
-				döngüsayaci++;
+				yenidizi[dÃ¶ngÃ¼sayaci] = dizi[i][j];
+				dÃ¶ngÃ¼sayaci++;
 			}
 		}
 		
@@ -31,3 +31,4 @@ public class dizilerÖdev5c {
 	}
 
 }
+

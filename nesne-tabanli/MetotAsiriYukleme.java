@@ -1,5 +1,5 @@
-
-public class Test3 {
+﻿
+public class MetotAsiriYukleme {
 
 	public static void main(String[] args) {
 		
@@ -18,7 +18,7 @@ class B1 {
 }
 
 class A2 extends B1 {
-	// method overloading. B sınıfındaki metotla aynı, parametresi de aynı fakat değişken tipi farklı old. için B metodunu aşırı yükler.
+	// method overloading. B sÄ±nÄ±fÄ±ndaki metotla aynÄ±, parametresi de aynÄ± fakat deÄŸiÅŸken tipi farklÄ± old. iÃ§in B metodunu aÅŸÄ±rÄ± yÃ¼kler.
 	public void p(int i) {
 		System.out.println(i);
 	}

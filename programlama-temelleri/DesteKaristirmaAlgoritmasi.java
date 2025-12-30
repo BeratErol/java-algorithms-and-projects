@@ -1,6 +1,6 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class KartDestesi {
+public class DesteKaristirmaAlgoritmasi {
 	public static void main(String[] args) {
 		int[] deste = new int [52];
 		String[] gruplar = {"Maca", "Kupa", "Karo", "Sinek"};
@@ -12,14 +12,14 @@ public class KartDestesi {
 		
 		// kartlari karistir
 		for (int i=0; i<deste.length; i++) {
-			// rastgele bir indeks oluştur
+			// rastgele bir indeks oluÅŸtur
 			int index = (int)(Math.random() * deste.length);
 			int temp = deste[i];
 			deste[i] = deste[index];
 			deste [index] = temp;
 		}
 		
-		// Ilk dort karti göster
+		// Ilk dort karti gÃ¶ster
 		for (int i=0; i<4; i++) {
 			String grup = gruplar[deste[i]/13];
 			String sira = siralar[deste[i]%13];
@@ -29,3 +29,4 @@ public class KartDestesi {
 	}
 
 }
+

@@ -1,5 +1,5 @@
-
-public class CharVeArttirma {
+﻿
+public class KarakterAritmetigi {
 
 	public static void main(String[] args) {
 		
@@ -13,3 +13,4 @@ public class CharVeArttirma {
 	}
 
 }
+

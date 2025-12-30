@@ -1,5 +1,5 @@
-
-public class BreakTesti {
+﻿
+public class DonguKiriciBreak {
 
 	public static void main(String[] args) {
 		
@@ -18,3 +18,4 @@ public class BreakTesti {
 	}
 
 }
+

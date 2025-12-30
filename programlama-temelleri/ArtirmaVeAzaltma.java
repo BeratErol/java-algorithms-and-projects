@@ -1,5 +1,5 @@
-
-public class ArtirilmisOperatör2 {
+﻿
+public class ArtirmaVeAzaltma¶r2 {
 public static void main (String[] args) {
 	int a = 6;
 	int b = a++;
@@ -11,3 +11,4 @@ public static void main (String[] args) {
 	System.out.println(b);
 }
 }
+

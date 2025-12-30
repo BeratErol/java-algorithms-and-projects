@@ -1,6 +1,6 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class dizilerÖdev2 {
+public class DiziOrtalamaHesaplayıcı–dev2 {
 
 	public static void main(String[] args) {
 		
@@ -22,3 +22,4 @@ public class dizilerÖdev2 {
 	}
 
 }
+

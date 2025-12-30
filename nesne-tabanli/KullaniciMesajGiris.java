@@ -1,6 +1,6 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class TestMesaj {
+public class KullaniciMesajGiris {
 
 	public static void main(String[] args) {
 		Scanner tarama = new Scanner (System.in);
@@ -16,3 +16,4 @@ public class TestMesaj {
 	}
 
 }
+

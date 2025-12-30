@@ -1,5 +1,5 @@
-
-public class PrintfOrnekleri {
+﻿
+public class FormatlıCıktıAnalizi {
 
 	public static void main(String[] args) {
 		
@@ -10,7 +10,7 @@ public class PrintfOrnekleri {
 		
 		System.out.printf("Ucret: %4.2f TL \n" , ucret );
 		
-		System.out.printf("Ucret: %5.3f TL \n" , ucret); // 16.404 alır ama 404 ten sonraki basamak 5'ten büyük olduğu için 16.405 alıyor.
+		System.out.printf("Ucret: %5.3f TL \n" , ucret); // 16.404 alÄ±r ama 404 ten sonraki basamak 5'ten bÃ¼yÃ¼k olduÄŸu iÃ§in 16.405 alÄ±yor.
 		
 		int adet = 5;
 		double miktar2 = 45.56;
@@ -18,7 +18,7 @@ public class PrintfOrnekleri {
 		System.out.printf("Adet %d ve miktar2 %f \n" , adet , miktar2);
 		
 		char karakter = 'b';
-		System.out.printf("%5c \n" , karakter);  //önünde 4 boşluk olur
+		System.out.printf("%5c \n" , karakter);  //Ã¶nÃ¼nde 4 boÅŸluk olur
 		
 		int ucret2 = adet*adet;
 		System.out.printf("%5d \n" , ucret2);
@@ -40,3 +40,4 @@ public class PrintfOrnekleri {
 	}
 
 }
+

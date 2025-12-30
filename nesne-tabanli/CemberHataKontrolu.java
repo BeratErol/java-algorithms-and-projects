@@ -1,4 +1,4 @@
-public class CemberIstisnaIle {
+﻿public class CemberHataKontrolu {
 		// Cemberin yaricapi
 		private double yaricap;
 		
@@ -40,3 +40,4 @@ public class CemberIstisnaIle {
 		}
 		
 }
+

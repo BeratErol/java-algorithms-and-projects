@@ -1,5 +1,5 @@
-
-public class TestTV {
+﻿
+public class TelevizyonNesneTesti {
 
 	public static void main(String[] args) {
 		
@@ -17,8 +17,8 @@ public class TestTV {
 		tv2.kanalYukari();
 		tv2.sesArtir();
 		
-		System.out.println("tv1'nin kanalı: " + tv1.kanal + " ve ses seviyesi " + tv1.sesSeviyesi);
-		System.out.println("tv2'nin kanalı: " + tv2.kanal + " ve ses seviyesi " + tv2.sesSeviyesi);
+		System.out.println("tv1'nin kanalÄ±: " + tv1.kanal + " ve ses seviyesi " + tv1.sesSeviyesi);
+		System.out.println("tv2'nin kanalÄ±: " + tv2.kanal + " ve ses seviyesi " + tv2.sesSeviyesi);
 
 	}
 

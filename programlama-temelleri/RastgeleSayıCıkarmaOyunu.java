@@ -1,32 +1,33 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
-public class CikarmaTesti {
+public class RastgeleSayıCıkarmaOyunu {
 	public static void main (String[] args) {
-		// 1)İki tane random sayı üret
+		// 1)Ä°ki tane random sayÄ± Ã¼ret
 		int sayi1 = (int)(Math.random() * 10);
 		int sayi2 = (int)(Math.random() * 10);
 		
-		// 2)sayi1<sayi2 ise sayi1 ve sayi2'yi yer değiştir
+		// 2)sayi1<sayi2 ise sayi1 ve sayi2'yi yer deÄŸiÅŸtir
 		if (sayi1<sayi2) {
-			int temp = sayi1 ; //sayi1'in değerini kaybetmemek için bir şeye atarız
+			int temp = sayi1 ; //sayi1'in deÄŸerini kaybetmemek iÃ§in bir ÅŸeye atarÄ±z
 			sayi1=sayi2 ;
 			sayi2=temp;  
 			}
 			
-		// 3)Kullanıcıya sor "sayi1 - sayi2 sonucu nedir?"	
+		// 3)KullanÄ±cÄ±ya sor "sayi1 - sayi2 sonucu nedir?"	
 		System.out.println(sayi1 + " - " + sayi2 + " nedir? ");
 			
 		Scanner input = new Scanner (System.in);
 		int cevap = input.nextInt();
 			
-		// 4)Cevabı değerlendir ve sonucu göster
+		// 4)CevabÄ± deÄŸerlendir ve sonucu gÃ¶ster
 		if (sayi1 - sayi2 == cevap) 
-		System.out.println("Tebrikler , doğru bildiniz.");
+		System.out.println("Tebrikler , doÄŸru bildiniz.");
 		else {
-		System.out.println("Cevabınız yanlis!");
-		System.out.println(sayi1 + " - " + sayi2 + " sonucu " + (sayi1-sayi2) + " olmalı.");
+		System.out.println("CevabÄ±nÄ±z yanlis!");
+		System.out.println(sayi1 + " - " + sayi2 + " sonucu " + (sayi1-sayi2) + " olmalÄ±.");
 		}		
 		/* System.out.println(sayi1 + " - " + sayi2 + " sonucu " + (sayi1-sayi2 == cevap)); 
-		yazıp true false şeklinde de yapabilirdik. */
+		yazÄ±p true false ÅŸeklinde de yapabilirdik. */
 	}
 }
+

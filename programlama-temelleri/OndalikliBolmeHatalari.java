@@ -1,5 +1,5 @@
-
-public class deneme {
+﻿
+public class OndalikliBolmeHatalari {
 public static void main (String[] args) {
 	
 	double a = (3d/2d) ;
@@ -10,3 +10,4 @@ public static void main (String[] args) {
 	System.out.print(b);
 }
 }
+

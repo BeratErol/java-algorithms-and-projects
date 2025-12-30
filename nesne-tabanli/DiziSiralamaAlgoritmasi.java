@@ -1,6 +1,6 @@
-import java.math.*;
+﻿import java.math.*;
 
-public class SiralaKarsilastirilabilirNesne {
+public class DiziSiralamaAlgoritmasi {
 
 	public static void main(String[] args) {
 		
@@ -17,3 +17,4 @@ public class SiralaKarsilastirilabilirNesne {
 	}
 
 }
+

@@ -1,5 +1,5 @@
-
-public class rectangle {
+﻿
+public class YildizlarlaDikdortgenCizimi {
 
 	public static void main(String[] args) {
 		

@@ -1,5 +1,5 @@
-
-public class TestHesapla {
+﻿
+public class MatematikYardimciSinifi {
 
 	public static void main(String[] args) {
 		System.out.println(Hesapla.kupAl(5));

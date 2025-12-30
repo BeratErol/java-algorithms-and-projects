@@ -1,5 +1,5 @@
-
-public class C {
+﻿
+public class VarsayilanDegerler {
 	private boolean x;
 	
 	public static void main(String[] args) {
@@ -13,4 +13,5 @@ public class C {
 		return x ? 1 : -1;
 	}
 }
+
 

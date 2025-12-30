@@ -1,5 +1,5 @@
-
-public class KilometreHesabi {
+﻿
+public class BirimDonusturucuMilKm {
  public static void main (String[] args) {
 	 
 	 double mil = 100 ;
@@ -11,3 +11,4 @@ public class KilometreHesabi {
 	 
  }
 }
+

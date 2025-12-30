@@ -1,5 +1,5 @@
-
-public class CarpimTablosuIndis {
+﻿
+public class MatrisIndisGosterimi {
 	public static void main (String [] args) {
 		
 	System.out.println("          Carpim Tablosu Indisleri");
@@ -21,3 +21,4 @@ public class CarpimTablosuIndis {
 		}
 	}
 }
+
