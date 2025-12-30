@@ -1,4 +1,4 @@
-# 🚀 Java Algoritmaları ve Projeler
+# 🚀 Java'da Algoritmalar ve Projeler
 
 ### *Comprehensive Java Portfolio*
 
