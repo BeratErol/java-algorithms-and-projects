@@ -119,15 +119,19 @@ Matris işlemleri ve **özyinelemeli (recursive) algoritmalar** üzerine kurulu 
 Bu projelerin geliştirilmesi sürecinde aşağıdaki alanlarda uzmanlık hedeflenmiştir:
 
 * **Algoritma Tasarımı**
+
   Karmaşık problemleri alt problemlere bölme ve recursive çözümleme
 
 * **Dosya I/O**
+
   Metin dosyalarından veri okuma ve verileri matris yapılarına dönüştürme
 
 * **Kullanıcı Deneyimi (UX)**
+
   Masaüstü uygulamalarında kullanıcı dostu arayüzler ve etkili hata geri bildirimleri
 
 * **Akademik Raporlama**
+
   Geliştirme sürecini, karşılaşılan problemleri ve çözüm yaklaşımlarını dokümante etme
 
 ---
