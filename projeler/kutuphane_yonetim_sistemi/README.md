@@ -1,4 +1,4 @@
-# 📚 Kütüphane Yönetim Sistemi
+# 📚 Kütüphane Yönetim Sistemi (Library Management System)
 
 **Java Swing Tabanlı Masaüstü Uygulaması**
 
