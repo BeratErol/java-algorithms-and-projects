@@ -1,4 +1,5 @@
-public class KarsilastirilabilirNesne implements Comparable<Person> {
+
+public class KarsilastirilabilirNesne implements Comparable<KarsilastirilabilirNesne> {
     private String name;
     private int age;
 
@@ -8,16 +9,14 @@ public class KarsilastirilabilirNesne implements Comparable<Person> {
     }
     
     @Override
-    public int compareTo(Person other) {
-        // Bu örnekte sadece yaşa göre karşılaştırma yapıyoruz
+    public int compareTo(KarsilastirilabilirNesne other) {
         return Integer.compare(this.age, other.age);
     }
 
     public static void main(String[] args) {
-        Person person1 = new Person("Alice", 30);
-        Person person2 = new Person("Bob", 25);
+        KarsilastirilabilirNesne person1 = new KarsilastirilabilirNesne("Alice", 30);
+        KarsilastirilabilirNesne person2 = new KarsilastirilabilirNesne("Bob", 25);
 
-        // compareTo metodunu kullanarak karşılaştırma
         if (person1.compareTo(person2) < 0) {
             System.out.println(person1.name + " is younger than " + person2.name);
         } else if (person1.compareTo(person2) > 0) {
@@ -26,5 +25,4 @@ public class KarsilastirilabilirNesne implements Comparable<Person> {
             System.out.println(person1.name + " is the same age as " + person2.name);
         }
     }
-}
-
+} 
