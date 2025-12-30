@@ -70,14 +70,15 @@ Bu sayede temizlenen alanlar kullanıcı tarafından net bir şekilde ayırt edi
 ## 📂 Dosya Yapısı
 
 * **Bom_Bom.java**
+
   Özyinelemeli algoritmayı ve ana oyun döngüsünü içeren kaynak kod.
 
 * **rapor.pdf**
+
   Yazılım mimarisi, karşılaşılan problemler ve teknik çözümlerin detaylı analizini içeren doküman.
 
 * **harita.txt**
+
   Oyunun başlangıç haritasını belirleyen veri dosyası.
 
 ---
-
-hazırlayabilirim.
