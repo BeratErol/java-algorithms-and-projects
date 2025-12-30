@@ -1,0 +1,20 @@
+
+public class Degisken_icin_kod_ornekleri {
+    public static void main (String[] args) {
+    	float b = 23.58f ;
+    	//int a=b; //derleme hatası
+    	int a = (int)b ;
+    	System.out.println(b);
+    	System.out.println(a);
+    	
+    	//Overflow(Taşma)
+    	int c = -360;
+    	byte d = (byte)c ;
+    	System.out.println(c);
+    	System.out.println(d);
+    	
+    	
+    }
+	
+	
+}
