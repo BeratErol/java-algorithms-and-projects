@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MetinGirisCıkısYonetimi {
+public class MetinGirisCikisYonetimi {
 
 	public static void main(String[] args) {
 		Scanner imput = new Scanner (System.in);

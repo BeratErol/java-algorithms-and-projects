@@ -1,5 +1,5 @@
 
-public class SıralıYazdırmaDongusu {
+public class SiraliYazdirmaDongusu {
 
 	public static void main(String[] args) {
 		

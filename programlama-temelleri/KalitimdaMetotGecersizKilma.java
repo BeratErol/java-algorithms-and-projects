@@ -1,5 +1,5 @@
-﻿
-public class KalıtımdaMetotGecersizKılma–dev1 {
+
+public class KalitimdaMetotGecersizKilma–dev1 {
 
 	public static void main(String[] args) {
 		A a = new A();

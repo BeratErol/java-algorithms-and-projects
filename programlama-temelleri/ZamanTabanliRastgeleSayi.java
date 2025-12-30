@@ -1,5 +1,5 @@
 
-public class ZamanTabanlıRastgeleSayı {
+public class ZamanTabanliRastgeleSayi {
 public static void main (String[] args) {
 	
 	/*milisaniye 1/1000 demektir bu yüzden 10'a göre modunu istersek tek haneli 100'e göre modunu istersek çift haneli

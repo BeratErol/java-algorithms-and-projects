@@ -1,5 +1,5 @@
 
-public class DiziSıralamaAlgoritması {
+public class DiziSiralamaAlgoritmasi {
 
 	public static void main(String[] args) {
 		

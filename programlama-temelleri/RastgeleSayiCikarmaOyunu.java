@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class RastgeleSayıCıkarmaOyunu {
+public class RastgeleSayiCikarmaOyunu {
 	public static void main (String[] args) {
 		// 1)İki tane random sayı üret
 		int sayi1 = (int)(Math.random() * 10);

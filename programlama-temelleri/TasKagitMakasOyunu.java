@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class TasKagıtMakasOyunu { //class ismi oluşturuken türkçe karakter kullanma.
+public class TasKagitMakasOyunu { //class ismi oluşturuken türkçe karakter kullanma.
 
 	public static void main(String[] args) {
 		

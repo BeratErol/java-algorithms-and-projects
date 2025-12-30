@@ -1,5 +1,5 @@
 
-public class FormatlıCıktıAnalizi {
+public class FormatliCiktiAnalizi {
 
 	public static void main(String[] args) {
 		

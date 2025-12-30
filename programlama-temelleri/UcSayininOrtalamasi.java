@@ -2,7 +2,7 @@
 //Ortalama hesapla
 import java.util.Scanner;   //Scanner, java.util paketinde
 
-public class UcSayınınOrtalaması {
+public class UcSayininOrtalamasi {
 public static void main (String[] args) {
 	//Scanner nesnesi oluşturur
 	Scanner input = new Scanner (System.in);

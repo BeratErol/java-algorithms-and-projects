@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MantıksalKarsılastırmalar {
+public class MantiksalKarsilastirmalar {
 
 	public static void main(String[] args) {
 		// Tarayıcı nesnesi oluştur

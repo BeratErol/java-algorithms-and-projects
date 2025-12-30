@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SayıTahminOyunuWhile {
+public class SayiTahminOyunuWhile {
 
 	public static void main(String[] args) {
 		

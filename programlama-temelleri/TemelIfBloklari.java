@@ -1,5 +1,5 @@
 
-public class TemelIfBlokları {
+public class TemelIfBloklari {
 public static void main (String[] args) {
 	int a = 67 ;
 	if (a>58)  //iften sonra kaşılaştırma yaparken parantez gelmeli

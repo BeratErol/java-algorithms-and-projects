@@ -1,5 +1,5 @@
 
-public class MatrisUçDegerAnalizi {
+public class MatrisUcDegerAnalizi {
 
 	public static void main(String[] args) {
 		

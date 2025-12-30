@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SayıTahminOyunuDoWhile {
+public class SayiTahminOyunuDoWhile {
 	public static void main(String[] args) {
 		
 		int sayi = (int)(Math.random()*101);

@@ -1,5 +1,5 @@
 
-public class MetinAramaMetotları {
+public class MetinAramaMetotlari {
 
 	public static void main(String[] args) {
 	

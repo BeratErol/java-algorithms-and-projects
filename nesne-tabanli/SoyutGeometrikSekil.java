@@ -1,14 +1,14 @@
-public abstract class TemelGeometrikSekil {
+public abstract class SoyutGeometrikSekil {
 
 	private String renk = "beyaz";
 	private boolean dolgu;
 	private java.util.Date olusturulmaTarihi;
 	
-	protected TemelGeometrikSekil(){
+	protected SoyutGeometrikSekil(){
 		olusturulmaTarihi = new java.util.Date();
 	}
 	
-	protected TemelGeometrikSekil(String renk, boolean dolgu){
+	protected SoyutGeometrikSekil(String renk, boolean dolgu){
 		this.renk = renk;
 		this.dolgu = dolgu;
 		olusturulmaTarihi = new java.util.Date(); 

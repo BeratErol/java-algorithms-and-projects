@@ -1,5 +1,5 @@
-﻿
-public class KarakterArtırmaTesti {
+
+public class KarakterArtirmaTesti {
 
 	public static void main(String[] args) {
 		

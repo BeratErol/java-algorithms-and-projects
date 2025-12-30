@@ -3,7 +3,7 @@
 
 import java.util.Scanner;   // Scanner is in the java.util package 
 
-public class SabitDegerliAlanHesabı {
+public class SabitDegerliAlanHesabi {
 	public static void main (String[] args) { 
     final double PI = 3.14159;    // Declare a constant 
    

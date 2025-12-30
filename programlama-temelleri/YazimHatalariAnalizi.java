@@ -1,5 +1,5 @@
 
-public class YazımHatalarıAnalizi {
+public class YazimHatalariAnalizi {
  public static void main (String[] args) {
 	 System.out.println("Welcome to Java");
  /*Hatalı kodun çıktısı: Error: Main method not found in class ShowSyntaxErrors, please define the main method as:

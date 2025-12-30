@@ -1,6 +1,6 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 
-public class DiziOrtalamaHesaplayıcı–dev2 {
+public class DiziOrtalamaHesaplayici–dev2 {
 
 	public static void main(String[] args) {
 		

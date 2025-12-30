@@ -1,5 +1,5 @@
 
-public class DiziİstatistikHesaplayıcı {
+public class DiziIstatistikHesaplayici {
 
 	public static void main(String[] args) {
 		

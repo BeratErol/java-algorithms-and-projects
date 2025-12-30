@@ -1,5 +1,5 @@
 
-public class AltAltaYazdırmaDongusu {
+public class AltAltaYazdirmaDongusu {
 
 	public static void main(String[] args) {
 		

@@ -1,5 +1,5 @@
 
-public class MetinKarsılastırmaMetotları {
+public class MetinKarsilastirmaMetotlari {
 
 	public static void main(String[] args) {
 		
