@@ -1,4 +1,4 @@
-# 💣 Bom-Bom(Candy Crush Benzeri Oyun): Recursive Matris Operasyonları ve Oyun Mantığı
+# 💣 Bom-Bom (Candy Crush Benzeri Oyun): Recursive Matris Operasyonları ve Oyun Mantığı
 
 Bu proje, **Java programlama dili** kullanılarak geliştirilmiş, ızgara tabanlı (**grid-based**) bir eşleştirme ve temizleme oyunudur.
 Projenin odak noktası; **iki boyutlu diziler** üzerinde **özyinelemeli (recursive) tarama algoritmaları** ve **dosya sisteminden dinamik veri okuma** süreçleridir.
