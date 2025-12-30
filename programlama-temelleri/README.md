@@ -54,5 +54,3 @@ Dosyaları incelemek için ilgili klasöre tıklayabilir, kodları yerel bilgisa
 * **Aşama 3:** Nesne Tabanlı Programlama (OOP) öncesi metot ve bellek yönetimi tamamlandı.
 
 ---
-
-hazırlayabiliriz.
