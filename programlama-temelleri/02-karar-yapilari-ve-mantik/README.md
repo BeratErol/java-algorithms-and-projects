@@ -31,6 +31,6 @@ Bu bölümde yer alan dosyalar, basit koşullardan karmaşık mantıksal analizl
 ## 💡 Neler Öğrenilir?
 
 - Koşullu dallanma (**Conditional Branching**) mantığı  
-- Mantıksal operatörlerin (`&&`, `\|\|`, `!`) karar süreçlerindeki kritik rolü  
+- Mantıksal operatörlerin (`&&`, `||`, `!`) karar süreçlerindeki kritik rolü  
 - `switch-case` yapısının `if-else` bloklarına göre hangi durumlarda daha verimli olduğu  
 - Hatalı algoritma kurgusunun sonuçlarını analiz etme (**Mantıksal Hata Analizi**)
