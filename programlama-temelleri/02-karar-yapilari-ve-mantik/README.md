@@ -1,4 +1,4 @@
-## ⚖️ 02 - Karar Yapıları ve Mantık
+# ⚖️ 02 - Karar Yapıları ve Mantık
 
 Bu klasör, **Java'da program akışını kontrol eden karar mekanizmalarını**, mantıksal sorgulamaları ve koşullu ifade bloklarını içeren çalışmaları kapsamaktadır.  
 Programın belirli şartlara göre farklı yollar izlemesini sağlayan algoritmaların temeli bu bölümde atılmıştır.
