@@ -1,10 +1,11 @@
+package bom_bom_oyunu;
 import java.util.Scanner;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Bom_Bom
+public class BomBom
 {
    
 	public static void main(String[] args) 
@@ -17,8 +18,10 @@ public class Bom_Bom
         
         try 
         {
-            // 'harita.txt' dosyasını okumak için BufferedReader oluştur
-            BufferedReader br = new BufferedReader(new FileReader("harita.txt"));
+        	// Dosyanın şu anki klasöründeki tam yolunu oluşturur
+            String dosyaYolu = System.getProperty("user.dir") + "/projeler/bom_bom_oyunu/harita.txt";
+         // 'harita.txt' dosyasını okumak için BufferedReader oluştur
+            BufferedReader br = new BufferedReader(new FileReader(dosyaYolu));
             String satir;
             int satirNo = 0;
 
