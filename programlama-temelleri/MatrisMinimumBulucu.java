@@ -1,5 +1,5 @@
 
-public class MatrisMinimumBulucu–dev5a {
+public class MatrisMinimumBulucu {
 
 	public static void main(String[] args) {
 		

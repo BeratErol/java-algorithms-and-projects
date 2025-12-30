@@ -1,5 +1,5 @@
 
-public class MatrisDizilestirme–dev5c {
+public class MatrisDizilestirme {
 
 	public static void main(String[] args) {
 		

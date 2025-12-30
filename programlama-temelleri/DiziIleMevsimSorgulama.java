@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class DiziIleMevsimSorgulama¼tünlemeMevsimler {
+public class DiziIleMevsimSorgulama {
 
 	public static void main(String[] args) {
 		

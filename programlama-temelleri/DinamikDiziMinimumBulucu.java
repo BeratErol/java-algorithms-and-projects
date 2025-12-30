@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DinamikDiziMinimumBulucu–dev1b {
+public class DinamikDiziMinimumBulucu {
 
 	public static void main(String[] args) {
 		

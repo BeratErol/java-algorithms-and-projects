@@ -1,6 +1,6 @@
-﻿import java.util.Arrays;
+import java.util.Arrays;
 
-public class MatrisBosSablon–dev5d {
+public class MatrisBosSablon {
 
 	public static void main(String[] args) {
 		

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DiziSiralamaSecmeli–dev1c {
+public class DiziSiralamaSecmeli {
 
 	public static void main(String[] args) {
 		

@@ -1,5 +1,5 @@
 
-public class MatrisSatirToplami–dev6 {
+public class MatrisSatirToplami {
 
 	public static void main(String[] args) {
 		

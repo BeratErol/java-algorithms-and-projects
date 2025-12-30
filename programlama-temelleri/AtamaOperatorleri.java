@@ -1,5 +1,5 @@
 
-public class AtamaOperatorleri¶r {
+public class AtamaOperatorleri {
 public static void main (String[] args) {
 	double a = 6.5 ;
 	a += a + 1 ; // a = a + a + 1 'le aynı şeydir.

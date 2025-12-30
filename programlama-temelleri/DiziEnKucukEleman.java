@@ -1,5 +1,5 @@
 
-public class DiziEnKucukEleman–dev1a {
+public class DiziEnKucukEleman {
 
 	public static void main(String[] args) {
 		

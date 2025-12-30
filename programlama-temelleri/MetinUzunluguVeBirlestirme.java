@@ -1,5 +1,5 @@
 
-public class MetinUzunluguVeBirlestirme¶zellikleri {
+public class MetinUzunluguVeBirlestirme {
 
 	public static void main(String[] args) {
 	

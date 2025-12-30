@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DiziOrtalamaHesaplayici–dev2 {
+public class DiziOrtalamaHesaplayici {
 
 	public static void main(String[] args) {
 		

@@ -1,5 +1,5 @@
-﻿
-public class ArtirmaVeAzaltma¶r2 {
+
+public class ArtirmaVeAzaltma {
 public static void main (String[] args) {
 	int a = 6;
 	int b = a++;
