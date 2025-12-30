@@ -1,4 +1,4 @@
-﻿
+
 public class MatrisIndisGosterimi {
 	public static void main (String [] args) {
 		

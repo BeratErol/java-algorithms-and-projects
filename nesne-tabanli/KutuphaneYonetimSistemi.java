@@ -30,7 +30,7 @@ class LibraryManager {
     private List<User> users;
     private List<Book> books;
 
-    public LibraryManager() {
+    public KutuphaneYonetimSistemi() {
         users = new ArrayList<>();
         books = new ArrayList<>();
     }
@@ -63,7 +63,7 @@ class LibraryGUI {
  private JPanel mainPanel;
  private JTextArea outputArea;
 
- public LibraryGUI(LibraryManager libraryManager) {
+ public KutuphaneYonetimSistemi(LibraryManager libraryManager) {
      this.libraryManager = libraryManager;
      frame = new JFrame("Library Management System");
      frame.setSize(800, 600);

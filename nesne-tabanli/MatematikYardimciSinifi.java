@@ -1,4 +1,4 @@
-﻿
+
 public class MatematikYardimciSinifi {
 
 	public static void main(String[] args) {

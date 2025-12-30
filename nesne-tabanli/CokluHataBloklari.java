@@ -1,4 +1,4 @@
-﻿
+
 public class CokluHataBloklari {
 
 	public static void main(String[] args) {

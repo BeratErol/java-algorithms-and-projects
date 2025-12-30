@@ -1,4 +1,4 @@
-﻿public class CemberHataKontrolu {
+public class CemberHataKontrolu {
 		// Cemberin yaricapi
 		private double yaricap;
 		
@@ -6,12 +6,12 @@
 		private static int nesneSayisi = 0;
 		
 		// 1 yaricapli cember yapilandir
-		public CemberIstisnaIle() {
+		public CemberHataKontrolu() {
 			this(1.0);
 		}
 	
 		// Belirtilen yaricap ile cember yapilandir
-		public CemberIstisnaIle(double yeniYaricap) {
+		public CemberHataKontrolu(double yeniYaricap) {
 			setYaricap(yeniYaricap);
 			nesneSayisi++;
 		}

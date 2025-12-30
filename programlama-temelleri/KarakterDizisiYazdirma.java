@@ -1,4 +1,4 @@
-﻿
+
 public class KarakterDizisiYazdirma {
 
 	public static void main(String[] args) {

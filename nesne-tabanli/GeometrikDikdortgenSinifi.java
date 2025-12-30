@@ -1,19 +1,19 @@
-﻿
+
 public class GeometrikDikdortgenSinifi extends TemelGeometrikSekil {
 
 	private double genislik;
 	private double yukseklik;
 	
-	public TemelGeometrikSekildenDikdortgen(){
+	public GeometrikDikdortgenSinifi(){
 		
 	}
 	
-	public TemelGeometrikSekildenDikdortgen(double genislik, double yukseklik){
+	public GeometrikDikdortgenSinifi(double genislik, double yukseklik){
 		this.genislik = genislik;
 		this.yukseklik = yukseklik;
 	}
 	
-	public TemelGeometrikSekildenDikdortgen(double genislik, double yukseklik, String renk, boolean dolgu){
+	public GeometrikDikdortgenSinifi(double genislik, double yukseklik, String renk, boolean dolgu){
 		this.genislik = genislik;
 		this.yukseklik = yukseklik;
 		setRenk(renk);

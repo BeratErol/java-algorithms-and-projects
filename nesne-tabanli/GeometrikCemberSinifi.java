@@ -3,15 +3,15 @@ public class GeometrikCemberSinifi extends TemelGeometrikSekil {
 
 	private double yaricap; 
 	
-	public TemelGeometrikSekildenCember(){
+	public GeometrikCemberSinifi(){
 		
 	}
 	
-	public TemelGeometrikSekildenCember(double yaricap) {
+	public GeometrikCemberSinifi(double yaricap) {
 		this.yaricap = yaricap;
 	}
 	
-	public TemelGeometrikSekildenCember(double yaricap, String renk, boolean dolgu) {
+	public GeometrikCemberSinifi(double yaricap, String renk, boolean dolgu) {
 		super (renk, dolgu);     // Üst sınıf kurucusunu çağırmak için super anahtar kelimesini kullanmamız gerekir ve çağrı, yapıcıdaki ilk ifade olmalıdır.
 		this.yaricap = yaricap;
 		

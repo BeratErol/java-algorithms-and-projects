@@ -1,10 +1,10 @@
-﻿
+
 public class TelevizyonNesneModeli {
 	int kanal = 1;
 	int sesSeviyesi = 1;
 	boolean acik = false;
 	
-	public TV() {
+	public TelevizyonNesneModeli() {
 	}
 	
 	public void ac(){

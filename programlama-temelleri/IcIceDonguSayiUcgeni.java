@@ -1,4 +1,4 @@
-﻿
+
 public class IcIceDonguSayiUcgeni {
 
 	public static void main(String[] args) {

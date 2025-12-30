@@ -1,4 +1,4 @@
-﻿
+
 public class MetinParcalamaTemelleri {
 
 	public static void main(String[] args) {

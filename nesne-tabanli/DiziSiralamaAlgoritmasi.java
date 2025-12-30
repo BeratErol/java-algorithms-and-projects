@@ -1,4 +1,4 @@
-﻿import java.math.*;
+import java.math.*;
 
 public class DiziSiralamaAlgoritmasi {
 

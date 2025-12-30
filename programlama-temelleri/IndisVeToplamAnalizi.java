@@ -1,4 +1,4 @@
-﻿
+
 public class IndisVeToplamAnalizi {
 	public static void main(String[] args) {
 		

@@ -2,7 +2,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 	class CustomExcept extends Exception {
-			public CustomExcept(String message) {
+			public GelismisHesapMakinesi(String message) {
 					super(message);
 			}
 	}

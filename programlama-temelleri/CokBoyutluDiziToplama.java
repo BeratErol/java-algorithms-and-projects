@@ -1,4 +1,4 @@
-﻿
+
 public class CokBoyutluDiziToplama {
 	public static void main(String[] args) {
 		// matris olusturma

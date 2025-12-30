@@ -1,4 +1,4 @@
-﻿
+
 public class MetinVeSayiBirlestirme {
 public static void main (String[] args) {
 	byte top;

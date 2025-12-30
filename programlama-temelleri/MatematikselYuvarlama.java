@@ -1,4 +1,4 @@
-﻿
+
 public class MatematikselYuvarlama {
 public static void main (String[] args) {
 	

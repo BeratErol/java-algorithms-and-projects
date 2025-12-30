@@ -1,4 +1,4 @@
-﻿
+
 public class UstelVeLogaritmikIslemler {
 
 	public static void main(String[] args) {

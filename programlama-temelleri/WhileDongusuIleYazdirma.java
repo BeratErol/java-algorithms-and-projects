@@ -1,4 +1,4 @@
-﻿
+
 public class WhileDongusuIleYazdirma {
 
 	public static void main(String[] args) {

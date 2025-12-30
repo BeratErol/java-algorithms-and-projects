@@ -1,4 +1,4 @@
-﻿
+
 public class VarsayilanDegerler {
 	private boolean x;
 	

@@ -1,4 +1,4 @@
-﻿
+
 public class DegerleCagirmaTesti {
 
 	public static void main(String[] args) {

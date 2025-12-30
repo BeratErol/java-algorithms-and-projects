@@ -1,4 +1,4 @@
-﻿
+
 public class OndalikliBolmeHatalari {
 public static void main (String[] args) {
 	

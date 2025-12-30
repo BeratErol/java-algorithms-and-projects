@@ -1,4 +1,4 @@
-﻿
+
 public class DonguselMesajYazdirma {
 
 	public static void main(String[] args) {

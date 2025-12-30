@@ -1,4 +1,4 @@
-﻿
+
 public class KarmaIsaretliDongu {
 
 	public static void main(String[] args) {
