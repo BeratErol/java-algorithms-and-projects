@@ -1,6 +1,6 @@
 import java.math.*;
 
-public class DiziSiralamaAlgoritmasi {
+public class DiziSiralamaAlgoritmasi_v2 {
 
 	public static void main(String[] args) {
 		
@@ -16,5 +16,5 @@ public class DiziSiralamaAlgoritmasi {
 				System.out.print(sayi + " ");
 	}
 
-}
+} 
 
