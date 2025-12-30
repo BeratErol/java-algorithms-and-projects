@@ -1,4 +1,4 @@
-﻿
+
 public class MatematikselFonksiyonlar {
 public static void main (String[]args) {
 	
@@ -6,7 +6,7 @@ public static void main (String[]args) {
 	System.out.println(Math.pow(4, 0.5));
 	System.out.println(Math.pow(2.5, 2));
 	System.out.println(Math.pow(2.5, -2));
-//pow metodu Math sÄ±nÄ±fÄ±nda tanÄ±mlanmÄ±ÅŸtÄ±r.Syntax(sÃ¶zdizimi) Math.pow(a,b)ÅŸeklindedir. a Ã¼ssÃ¼ b'nin sonucunu geri dÃ¶ndÃ¼rÃ¼r. 
+//pow metodu Math sınıfında tanımlanmıştır.Syntax(sözdizimi) Math.pow(a,b)şeklindedir. a üssü b'nin sonucunu geri döndürür. 
 	
 	int sayi = (int)Math.pow(2,4);
 	System.out.println(sayi);

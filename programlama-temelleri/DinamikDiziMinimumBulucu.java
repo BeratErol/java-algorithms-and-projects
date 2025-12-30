@@ -1,4 +1,4 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 
 public class DinamikDiziMinimumBulucu–dev1b {
 
@@ -24,7 +24,7 @@ public class DinamikDiziMinimumBulucu–dev1b {
 			}
 		}		
 
-		System.out.println("En kÃ¼Ã§Ã¼k sayi = " + enKucuk + " ve indisi = " + enKucukIndeks);
+		System.out.println("En küçük sayi = " + enKucuk + " ve indisi = " + enKucukIndeks);
 
 	}
 

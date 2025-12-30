@@ -1,4 +1,4 @@
-﻿import java.io.*;
+import java.io.*;
 
 public class DosyaYazmaOtomatikKapat {
 
@@ -12,7 +12,7 @@ public class DosyaYazmaOtomatikKapat {
 			}
 
 			try (
-				// Dosya oluÅŸturma
+				// Dosya oluşturma
 				PrintWriter cikis = new PrintWriter(dosya3);
 			){
 				// Dosyaya yazma

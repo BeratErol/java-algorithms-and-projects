@@ -1,11 +1,11 @@
-﻿
+
 public class KarakterVeSayisalDonusum {
 
 	public static void main(String[] args) {
 		char ch = (char) 0xAB0041; 
 		System.out.println(ch);
 
-		char ch2 = (char)65.25; // ondalÄ±k kÄ±smÄ± atÄ±p tam kÄ±smÄ± Ã§evirir
+		char ch2 = (char)65.25; // ondalık kısmı atıp tam kısmı çevirir
 		System.out.println(ch2);
 		
 		int i = (int)'A';

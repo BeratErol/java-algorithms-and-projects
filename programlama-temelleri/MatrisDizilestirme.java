@@ -1,4 +1,4 @@
-﻿
+
 public class MatrisDizilestirme–dev5c {
 
 	public static void main(String[] args) {
@@ -12,11 +12,11 @@ public class MatrisDizilestirme–dev5c {
 
 		int[] yenidizi = new int [12];
 		
-		int dÃ¶ngÃ¼sayaci = 0;
+		int döngüsayaci = 0;
 		for(int i=0; i<dizi.length; i++) {
 			for(int j=0; j<dizi.length-1; j++) {
-				yenidizi[dÃ¶ngÃ¼sayaci] = dizi[i][j];
-				dÃ¶ngÃ¼sayaci++;
+				yenidizi[döngüsayaci] = dizi[i][j];
+				döngüsayaci++;
 			}
 		}
 		

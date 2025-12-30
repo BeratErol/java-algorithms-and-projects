@@ -1,4 +1,4 @@
-﻿
+
 public class MetotGecersizKilma {
 
 	public static void main(String[] args) {
@@ -20,7 +20,7 @@ class B {
 }
 
 class A1 extends B {
-	// method overriding. B sÄ±nÄ±fÄ±ndaki metotla aynÄ± ve parametresi, deÄŸiÅŸken tipi de aynÄ± olduÄŸu iÃ§in B metodunu geÃ§ersiz kÄ±lar
+	// method overriding. B sınıfındaki metotla aynı ve parametresi, değişken tipi de aynı olduğu için B metodunu geçersiz kılar
 	public void p (double i) {
 		System.out.println(i);
 	}

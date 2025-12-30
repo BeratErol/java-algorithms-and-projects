@@ -1,4 +1,4 @@
-﻿
+
 public class HacimHesaplamaModeli {
 
 	public static void main(String[] args) {
@@ -12,17 +12,17 @@ public class HacimHesaplamaModeli {
 class Kutu{
 	double en;
 	double boy;
-	double yÃ¼kseklik;
+	double yükseklik;
 	
-	Kutu(double en, double boy, double yÃ¼kseklik) {
+	Kutu(double en, double boy, double yükseklik) {
 		this.en = en;
 		this.boy = boy;
-		this.yÃ¼kseklik = yÃ¼kseklik;
+		this.yükseklik = yükseklik;
 	}
 	
 	public void getHacim() {
-		double hacim = en * boy * yÃ¼kseklik;
-		System.out.println("eni " + en + ", boyu " + boy + ", yÃ¼kseliÄŸi " + yÃ¼kseklik + " olan kutunun hacmi: " + hacim);
+		double hacim = en * boy * yükseklik;
+		System.out.println("eni " + en + ", boyu " + boy + ", yükseliği " + yükseklik + " olan kutunun hacmi: " + hacim);
 	}
 
 }

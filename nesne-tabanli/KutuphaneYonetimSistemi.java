@@ -1,31 +1,31 @@
-﻿import javax.swing.*;
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
 import java.util.ArrayList;
 
-// KullanÄ±cÄ± sÄ±nÄ±fÄ±
+// Kullanıcı sınıfı
 class User {
     private String username;
     private String password;
-    private String userType; // Ã¶ÄŸrenci, Ã¶ÄŸretmen, dÄ±ÅŸ Ã¼ye
+    private String userType; // öğrenci, öğretmen, dış üye
 
     // constructor, getters, setters
 }
 
-// Kitap sÄ±nÄ±fÄ±
+// Kitap sınıfı
 class Book {
     private String title;
     private String author;
     private int year;
     private String isbn;
-    private String status; // Ã¶dÃ¼nÃ§ alÄ±ndÄ±, rafta, rezerve edildi
+    private String status; // ödünç alındı, rafta, rezerve edildi
 
     // constructor, getters, setters
 }
 
-// KÃ¼tÃ¼phane YÃ¶neticisi sÄ±nÄ±fÄ±
+// Kütüphane Yöneticisi sınıfı
 class LibraryManager {
     private List<User> users;
     private List<Book> books;
@@ -36,27 +36,27 @@ class LibraryManager {
     }
 
     public void loadUsersFromExcel(String filePath) {
-        // Excel'den kullanÄ±cÄ±larÄ± yÃ¼kleme
+        // Excel'den kullanıcıları yükleme
     }
 
     public void loadBooksFromExcel(String filePath) {
-        // Excel'den kitaplarÄ± yÃ¼kleme
+        // Excel'den kitapları yükleme
     }
 
     public void addUser(User user) {
         users.add(user);
-        // Excel'e kullanÄ±cÄ±yÄ± ekleme
+        // Excel'e kullanıcıyı ekleme
     }
 
     public void addBook(Book book) {
         books.add(book);
-        // Excel'e kitabÄ± ekleme
+        // Excel'e kitabı ekleme
     }
 
-    // DiÄŸer kÃ¼tÃ¼phane iÅŸlevleri
+    // Diğer kütüphane işlevleri
 }
 
-//GUI ArayÃ¼zÃ¼
+//GUI Arayüzü
 class LibraryGUI {
  private LibraryManager libraryManager;
  private JFrame frame;
@@ -135,12 +135,12 @@ class LibraryGUI {
 
  
 
-// Ana uygulama sÄ±nÄ±fÄ±
+// Ana uygulama sınıfı
 public class KutuphaneYonetimSistemi {
     public static void main(String[] args) {
         LibraryManager libraryManager = new LibraryManager();
         
-        // GUI baÅŸlatma iÅŸlemi
+        // GUI başlatma işlemi
         LibraryGUI libraryGUI = new LibraryGUI(libraryManager);
        
     }

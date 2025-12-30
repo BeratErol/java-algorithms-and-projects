@@ -1,4 +1,4 @@
-﻿
+
 public class HataIzlemeAnalizi {
 
 	public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class HataIzlemeAnalizi {
 
 	private static int sum(int[] list) {
 		int result = 0;
-			for(int i=0; i<=list.length; i++) // i<list.length dersek sorunsuz Ã§alÄ±ÅŸÄ±r
+			for(int i=0; i<=list.length; i++) // i<list.length dersek sorunsuz çalışır
 				result += list[i];
 			
 		return result;

@@ -1,4 +1,4 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 
 public class DesteKaristirmaAlgoritmasi {
 	public static void main(String[] args) {
@@ -12,14 +12,14 @@ public class DesteKaristirmaAlgoritmasi {
 		
 		// kartlari karistir
 		for (int i=0; i<deste.length; i++) {
-			// rastgele bir indeks oluÅŸtur
+			// rastgele bir indeks oluştur
 			int index = (int)(Math.random() * deste.length);
 			int temp = deste[i];
 			deste[i] = deste[index];
 			deste [index] = temp;
 		}
 		
-		// Ilk dort karti gÃ¶ster
+		// Ilk dort karti göster
 		for (int i=0; i<4; i++) {
 			String grup = gruplar[deste[i]/13];
 			String sira = siralar[deste[i]%13];

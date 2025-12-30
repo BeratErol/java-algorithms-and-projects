@@ -1,4 +1,4 @@
-﻿
+
 public class KarakterIndisErisimi {
 
 	public static void main(String[] args) {
@@ -13,10 +13,10 @@ public class KarakterIndisErisimi {
 
 		System.out.println("");
 		
-		//SayÄ±sal bi deÄŸer olarak gÃ¶rmemesi iÃ§in String olarak gÃ¶rmesi iÃ§in bi yere boÅŸluk bÄ±rakmamÄ±z yeterlidir.
+		//Sayısal bi değer olarak görmemesi için String olarak görmesi için bi yere boşluk bırakmamız yeterlidir.
 		System.out.println("" + mesaj.charAt(5) + mesaj.charAt(4) + mesaj.charAt(0) + mesaj.charAt(11) + mesaj.charAt(12));
 		
-		//SayÄ±sal bi deÄŸer olarak gÃ¶rÃ¼r.
+		//Sayısal bi değer olarak görür.
 		System.out.println(mesaj.charAt(5) + mesaj.charAt(4) + mesaj.charAt(0) + mesaj.charAt(11) + mesaj.charAt(12));
 	}
 

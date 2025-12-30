@@ -1,9 +1,9 @@
-﻿
+
 public class OgrenciKayitSistemi {
 
 	public static void main(String[] args) {
 		Ogrenci2 nesne1 = new Ogrenci2(278, "Berat Erol", 4000f);
-		Ogrenci2 nesne2 = new Ogrenci2(558, "GÃ¶zde Duygu Polat", 5000f);
+		Ogrenci2 nesne2 = new Ogrenci2(558, "Gözde Duygu Polat", 5000f);
 		nesne1.bilgileriGoster();
 		nesne2.bilgileriGoster();
 	}

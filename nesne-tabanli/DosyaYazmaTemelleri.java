@@ -1,4 +1,4 @@
-﻿import java.io.*;
+import java.io.*;
 
 public class DosyaYazmaTemelleri {
 
@@ -11,7 +11,7 @@ public class DosyaYazmaTemelleri {
 				System.exit(1);
 			}
 		
-		// Dosya oluÅŸturma
+		// Dosya oluşturma
 		PrintWriter cikis = new PrintWriter(dosya2);
 		
 		// Dosyaya yazma 
@@ -20,7 +20,7 @@ public class DosyaYazmaTemelleri {
 		cikis.print("Diger Kisi Algoritma ");
 		cikis.println(90);
 		
-		// DosyayÄ± kapatma
+		// Dosyayı kapatma
 		cikis.close();
 
 	}

@@ -1,4 +1,4 @@
-﻿import java.util.InputMismatchException;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 	class CustomExcept extends Exception {
@@ -14,16 +14,16 @@ import java.util.Scanner;
 
 			while (true) {
 				try {
-					System.out.print("Ä°ÅŸlem seÃ§iniz: ");
-					System.out.println("Toplama iÃ§in 1, Ã‡Ä±karma iÃ§in 2, BÃ¶lme iÃ§in 3, Ã‡arpma iÃ§in 4 seÃ§iniz.");
+					System.out.print("İşlem seçiniz: ");
+					System.out.println("Toplama için 1, Çıkarma için 2, Bölme için 3, Çarpma için 4 seçiniz.");
 					islem = scanner.nextInt();
 
 					if (islem > 4 || islem < 0) {
-						throw new CustomExcept("GeÃ§ersiz iÅŸlem seÃ§ildi!");
+						throw new CustomExcept("Geçersiz işlem seçildi!");
 					}
 					break;
 				} catch (InputMismatchException e) {
-					System.out.println("Veri tipi farklÄ±! LÃ¼tfen bir sayÄ± giriniz.");
+					System.out.println("Veri tipi farklı! Lütfen bir sayı giriniz.");
 					scanner.next();
 				} catch (CustomExcept e) {
 					System.out.println(e.getMessage());
@@ -32,22 +32,22 @@ import java.util.Scanner;
 
 			while (true) {
 				try {
-					System.out.print("Ä°lk sayÄ±yÄ± giriniz: ");
+					System.out.print("İlk sayıyı giriniz: ");
 					a = scanner.nextInt();
 					break;
 				} catch (InputMismatchException e) {
-					System.out.println("Veri tipi farklÄ±! LÃ¼tfen bir sayÄ± giriniz.");
+					System.out.println("Veri tipi farklı! Lütfen bir sayı giriniz.");
 					scanner.next();
 				}
 			}
 
 			while (true) {
 				try {
-					System.out.print("Ä°kinci sayÄ±yÄ± giriniz: ");
+					System.out.print("İkinci sayıyı giriniz: ");
 					b = scanner.nextInt();
 					break;
 				} catch (InputMismatchException e) {
-					System.out.println("Veri tipi farklÄ±! LÃ¼tfen bir sayÄ± giriniz.");
+					System.out.println("Veri tipi farklı! Lütfen bir sayı giriniz.");
 					scanner.next();
 				}
 			}
@@ -57,9 +57,9 @@ import java.util.Scanner;
 				try {
 					sonuc = a + b;
 					if (sonuc > 9999) {
-						throw new CustomExcept("SayÄ± sÄ±nÄ±rÄ± aÅŸÄ±ldÄ±!");
+						throw new CustomExcept("Sayı sınırı aşıldı!");
 					}
-					System.out.println("SonuÃ§: " + sonuc);
+					System.out.println("Sonuç: " + sonuc);
 				} catch (Exception e) {
 					System.out.println(e.getMessage());
 				}
@@ -69,9 +69,9 @@ import java.util.Scanner;
 				try {
 					sonuc = a - b;
 					if (sonuc > 9999) {
-						throw new CustomExcept("SayÄ± sÄ±nÄ±rÄ± aÅŸÄ±ldÄ±!");
+						throw new CustomExcept("Sayı sınırı aşıldı!");
 					}
-					System.out.println("SonuÃ§: " + sonuc);
+					System.out.println("Sonuç: " + sonuc);
 				} catch (Exception e) {
 					System.out.println(e.getMessage());
 				}
@@ -80,13 +80,13 @@ import java.util.Scanner;
 			case 3:
 				try {
 					if (b == 0) {
-						throw new ArithmeticException("BÃ¶lme hatasÄ±: SÄ±fÄ±ra bÃ¶lme.");
+						throw new ArithmeticException("Bölme hatası: Sıfıra bölme.");
 					}
 					sonuc = a / b;
 					if (sonuc > 9999) {
-						throw new CustomExcept("SayÄ± sÄ±nÄ±rÄ± aÅŸÄ±ldÄ±!");
+						throw new CustomExcept("Sayı sınırı aşıldı!");
 					}
-					System.out.println("SonuÃ§: " + sonuc);
+					System.out.println("Sonuç: " + sonuc);
 				} catch (Exception e) {
 					System.out.println(e.getMessage());
 				}
@@ -96,9 +96,9 @@ import java.util.Scanner;
 				try {
 					sonuc = a * b;
 					if (sonuc > 9999) {
-						throw new CustomExcept("SayÄ± sÄ±nÄ±rÄ± aÅŸÄ±ldÄ±!");
+						throw new CustomExcept("Sayı sınırı aşıldı!");
 					}
-					System.out.println("SonuÃ§: " + sonuc);
+					System.out.println("Sonuç: " + sonuc);
 				} catch (Exception e) {
 					System.out.println(e.getMessage());
 				}

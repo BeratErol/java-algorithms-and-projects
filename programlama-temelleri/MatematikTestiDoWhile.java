@@ -1,4 +1,4 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 
 public class MatematikTestiDoWhile {
 	public static void main(String[] args) {
@@ -13,12 +13,12 @@ public class MatematikTestiDoWhile {
 		
 		do {
 			if (sayi1 + sayi2 != cevap) {
-			System.out.println("YanlÄ±ÅŸ cevap , tekrar deneyiniz!\n" + (sayi1 + " + " + sayi2 + " sonucu nedir ?"));
+			System.out.println("Yanlış cevap , tekrar deneyiniz!\n" + (sayi1 + " + " + sayi2 + " sonucu nedir ?"));
 			
 			cevap = input.nextInt();}
 			
 			if (sayi1 + sayi2 == cevap) 
-				System.out.println("Tebrikler doÄŸru bildiniz.");
+				System.out.println("Tebrikler doğru bildiniz.");
 			
 		} while (sayi1 + sayi2 != cevap);
 		

@@ -1,4 +1,4 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 public class HaftaIciSonuKontrolu {
 
 	public static void main(String[] args) {
@@ -6,22 +6,22 @@ public class HaftaIciSonuKontrolu {
 	System.out.println("Gun icin bir sayi giriniz (1-7) = ");
 	int gun = input.nextInt();
 	
-	switch (gun) {  // int'te tanÄ±mladÄ±ÄŸÄ±n deÄŸiÅŸkenle switch iÃ§indeki deÄŸiÅŸken aynÄ± olmalÄ± 
+	switch (gun) {  // int'te tanımladığın değişkenle switch içindeki değişken aynı olmalı 
 	case 1 : 
 	case 2 :
 	case 3 :
 	case 4 :
-	case 5 : System.out.println("Hafta Ä°Ã§i"); break;
+	case 5 : System.out.println("Hafta İçi"); break;
 	case 6 : 
-	case 7 : System.out.println("Hafta Sonu");	//bu satÄ±rdan sonra kod bitseydi break; yazmamÄ±za gerek yoktu
+	case 7 : System.out.println("Hafta Sonu");	//bu satırdan sonra kod bitseydi break; yazmamıza gerek yoktu
 		break;
-	default : System.out.println("TanÄ±mlanan aralÄ±kta bir sayÄ± giriniz !!!");
+	default : System.out.println("Tanımlanan aralıkta bir sayı giriniz !!!");
 		System.exit(1); 
-	//EÄŸer yanlÄ±ÅŸ deÄŸer girilirse bÃ¼tÃ¼n sistemden Ã§Ä±kÄ±ÅŸ yapar,kodun devamÄ± da Ã§alÄ±ÅŸmaz.
+	//Eğer yanlış değer girilirse bütün sistemden çıkış yapar,kodun devamı da çalışmaz.
 	 	}
 	int a = 58 ;
 	if (a>43)
-		System.out.println("Sivas KÃ¼tahya'dan bÃ¼yÃ¼ktÃ¼r.");	 
+		System.out.println("Sivas Kütahya'dan büyüktür.");	 
 	}
 }
 

@@ -1,4 +1,4 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 
 public class DiziSıralamaSecmeli–dev1c {
 
@@ -13,9 +13,9 @@ public class DiziSıralamaSecmeli–dev1c {
 			dizi[i] = input.nextInt();
 		
 		
-		 // Diziyi kÃ¼Ã§Ã¼kten bÃ¼yÃ¼ÄŸe sÄ±ralayalÄ±m.
+		 // Diziyi küçükten büyüğe sıralayalım.
         for (int i = 0; i < dizi.length - 1; i++) {
-            // Dizideki en kÃ¼Ã§Ã¼k elemanÄ± bulalÄ±m.
+            // Dizideki en küçük elemanı bulalım.
             int minIndex = i;
             for (int j = i + 1; j < dizi.length; j++) {
                 if (dizi[j] < dizi[minIndex]) {
@@ -23,7 +23,7 @@ public class DiziSıralamaSecmeli–dev1c {
                 }
             }
 
-            // En kÃ¼Ã§Ã¼k elemanÄ± dizinin baÅŸÄ±ndaki elemanla yer deÄŸiÅŸtirelim.
+            // En küçük elemanı dizinin başındaki elemanla yer değiştirelim.
             int temp = dizi[i];
             dizi[i] = dizi[minIndex];
             dizi[minIndex] = temp;

@@ -1,21 +1,21 @@
-﻿
+
 public class KlasikCarpimTablosu {
 	public static void main(String[] args) {
-		//tablonun baÅŸlÄ±ÄŸÄ±
+		//tablonun başlığı
 		System.out.println("                Carpim Tablosu");
 		
-		//sayÄ± baÅŸlÄ±ÄŸÄ±
+		//sayı başlığı
 		System.out.print("    ");
 		for (int j=1; j<=9; j++)
 			System.out.print("   "+j);
 		
 		System.out.println("\n----------------------------------------");
 		
-		//tablonun gÃ¶vdesi 
+		//tablonun gövdesi 
 		for (int i=1; i<=9; i++) {
 			System.out.print(i+ " | ");
 			for (int j=1; j<=9; j++) {
-				//carpimlar ve dÃ¼zenli yerlestirme
+				//carpimlar ve düzenli yerlestirme
 				System.out.printf("%4d",i*j);
 			}
 			System.out.println();

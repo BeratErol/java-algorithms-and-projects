@@ -1,4 +1,4 @@
-﻿
+
 public class MatrisUçDegerAnalizi {
 
 	public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class MatrisUçDegerAnalizi {
 			}
 		}
 		
-		System.out.println("En kÃ¼Ã§Ã¼k eleman: " + enKucuk + " ve indisleri: SatÄ±r " + satir + ", SÃ¼tun " + sutun);
+		System.out.println("En küçük eleman: " + enKucuk + " ve indisleri: Satır " + satir + ", Sütun " + sutun);
 		
 		
 		int enBuyuk = dizi[0][0];
@@ -41,7 +41,7 @@ public class MatrisUçDegerAnalizi {
 			}
 		}
 		
-		System.out.println("En bÃ¼yÃ¼k eleman: " + enBuyuk + " ve indisleri: SatÄ±r " + satir2 + ", SÃ¼tun " + sutun2);
+		System.out.println("En büyük eleman: " + enBuyuk + " ve indisleri: Satır " + satir2 + ", Sütun " + sutun2);
 		
 	}
 

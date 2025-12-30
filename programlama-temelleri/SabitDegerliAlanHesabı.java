@@ -1,5 +1,5 @@
-﻿
-// YarÄ±Ã§apÄ±n girilmesiyle dairenin alan hesabÄ±
+
+// Yarıçapın girilmesiyle dairenin alan hesabı
 
 import java.util.Scanner;   // Scanner is in the java.util package 
 

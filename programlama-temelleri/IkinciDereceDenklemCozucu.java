@@ -1,23 +1,23 @@
-﻿
+
 import java.util.Scanner;
-public class IkinciDereceDenklemCozucu { //delta<0 ise reel kÃ¶k yoktur diye geliÅŸtir
+public class IkinciDereceDenklemCozucu { //delta<0 ise reel kök yoktur diye geliştir
 
 	public static void main(String[] args) {
 	
 	/*	Scanner input = new Scanner (System.in);
-	System.out.println("0'a eÅŸit olan denklemde sÄ±rasÄ±yla x kare'nin , x'in katsayÄ±nÄ± ve sabit terimi giriniz : ");
+	System.out.println("0'a eşit olan denklemde sırasıyla x kare'nin , x'in katsayını ve sabit terimi giriniz : ");
 	
-	double xkareninkatsayÄ±sÄ± = input.nextInt(); //konsoldan alÄ±nan ilk deÄŸerdir.(sÄ±rayla hareket eder.)
-	double xinkatsayÄ±sÄ± = input.nextInt();
+	double xkareninkatsayısı = input.nextInt(); //konsoldan alınan ilk değerdir.(sırayla hareket eder.)
+	double xinkatsayısı = input.nextInt();
 	double sabitterim = input.nextInt();
 	
-	double x1 = ((-xinkatsayÄ±sÄ±) + Math.sqrt(Math.pow(xinkatsayÄ±sÄ±, 2)-4*xkareninkatsayÄ±sÄ±*sabitterim))
-				/ (2*xkareninkatsayÄ±sÄ±);      
-	//Math.sqrt(); ifadesi karekÃ¶k alÄ±r.
-	double x2 = ((-xinkatsayÄ±sÄ±) + -Math.sqrt(xinkatsayÄ±sÄ±*xinkatsayÄ±sÄ±-4*xkareninkatsayÄ±sÄ±*sabitterim))
-			/ (2*xkareninkatsayÄ±sÄ±); 
+	double x1 = ((-xinkatsayısı) + Math.sqrt(Math.pow(xinkatsayısı, 2)-4*xkareninkatsayısı*sabitterim))
+				/ (2*xkareninkatsayısı);      
+	//Math.sqrt(); ifadesi karekök alır.
+	double x2 = ((-xinkatsayısı) + -Math.sqrt(xinkatsayısı*xinkatsayısı-4*xkareninkatsayısı*sabitterim))
+			/ (2*xkareninkatsayısı); 
 	
-	System.out.println("Sistemin kÃ¶kleri = " + x1 + " ve " + x2 + "'dir."); */
+	System.out.println("Sistemin kökleri = " + x1 + " ve " + x2 + "'dir."); */
 	
 	int i = 2, j = 3 ;
 			System.out.println(" i + j " + (i + j));

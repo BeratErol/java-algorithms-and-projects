@@ -1,4 +1,4 @@
-﻿
+
 public class MetinKarsılastırmaMetotları {
 
 	public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class MetinKarsılastırmaMetotları {
 		
 		System.out.println(s1.compareTo(s2));
 		System.out.println(s3.compareTo(s1)); 
-		/* s3 dizisi ile s1 dizisini karÅŸÄ±laÅŸtÄ±rÄ±r farklÄ±lÄ±klar s3 dizisinde M ile baÅŸlar s1'de D , M D'den ilerde olduÄŸu iÃ§in pozitif dÃ¶ner */
+		/* s3 dizisi ile s1 dizisini karşılaştırır farklılıklar s3 dizisinde M ile başlar s1'de D , M D'den ilerde olduğu için pozitif döner */
 		
 		System.out.println(s1.startsWith("Me"));
 		System.out.println(s1.startsWith("me"));

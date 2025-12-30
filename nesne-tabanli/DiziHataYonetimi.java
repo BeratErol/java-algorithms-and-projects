@@ -1,4 +1,4 @@
-﻿
+
 public class DiziHataYonetimi {
 
 	public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class DiziHataYonetimi {
 				System.out.println(toplam);
 						
 		}catch (IndexOutOfBoundsException ex) {
-			System.out.println("Dizinin sÄ±nÄ±rlarÄ± aÅŸÄ±ldÄ±!");
+			System.out.println("Dizinin sınırları aşıldı!");
 		}
 		
 	}

@@ -1,4 +1,4 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 
 public class BolmeHataYakalama {
 	public static int bolme(int sayi1, int sayi2) throws ArithmeticException{
@@ -25,7 +25,7 @@ public class BolmeHataYakalama {
 	/*		finally {
 			int cevap = bolme(sayi1, sayi2);
 			System.out.println(cevap);
-		}    													$ finally bloÄŸu ne olursa olsun Ã§alÄ±ÅŸÄ±r.	*/
+		}    													$ finally bloğu ne olursa olsun çalışır.	*/
 		
 		System.out.println("Yurutme devam ediyor...");
 

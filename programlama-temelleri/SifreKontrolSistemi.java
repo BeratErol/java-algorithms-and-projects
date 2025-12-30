@@ -1,4 +1,4 @@
-﻿import java.util.Scanner;	
+import java.util.Scanner;	
 
 public class SifreKontrolSistemi {
 	public static void main(String[] args) { 	
@@ -21,7 +21,7 @@ public class SifreKontrolSistemi {
 				break;}
 			
 			if (pinKodu.equals(giris)==false && i==4) 
-				System.out.println("5 kere yanlÄ±ÅŸ girdiniz.");	
+				System.out.println("5 kere yanlış girdiniz.");	
 		}
 		
 	

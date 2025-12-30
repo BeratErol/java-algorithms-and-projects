@@ -1,4 +1,4 @@
-﻿
+
 public class DiziEnKucukEleman–dev1a {
 
 	public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class DiziEnKucukEleman–dev1a {
 			if(enKucuk>tamsayilar[i])
 				enKucuk = tamsayilar[i];
 		
-		System.out.println("En kÃ¼Ã§Ã¼k sayi = " + enKucuk);
+		System.out.println("En küçük sayi = " + enKucuk);
 	
 	
 	}	

@@ -1,26 +1,26 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 public class NotHarfKarsiligi {
 
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner (System.in);
-		System.out.println("Bir not deÄŸeri giriniz: ");
+		System.out.println("Bir not değeri giriniz: ");
 		double not = input.nextDouble();
 		
-		System.out.print("Not deÄŸeri: ");
+		System.out.print("Not değeri: ");
 		notYazdir(not);
 		
-		System.out.print("Not deÄŸeri: ");
+		System.out.print("Not değeri: ");
 		notYazdir(78.5);
 		
-		System.out.print("Not deÄŸeri: ");
+		System.out.print("Not değeri: ");
 		notYazdir(59.5);
 	}
 
 	public static void notYazdir(double dersnotu) {
 		
 		if (dersnotu<0 || dersnotu>100) {
-			System.out.println("GeÃ§ersiz ders notu");
+			System.out.println("Geçersiz ders notu");
 			return;
 			}
 		

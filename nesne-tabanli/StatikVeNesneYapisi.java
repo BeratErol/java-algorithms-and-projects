@@ -1,4 +1,4 @@
-﻿
+
 public class StatikVeNesneYapisi {
 		int i = 5;
 		static int k = 2; 
@@ -10,8 +10,8 @@ public class StatikVeNesneYapisi {
 		
 	/*   int j =i;
 		 m1();
-		ÅŸeklinde yazarsak i ve m1 static olmadÄ±ÄŸÄ± iÃ§in hata verir
-		o yÃ¼zden A sÄ±nÄ±fÄ±ndan bir nesne oluÅŸturup o nesne Ã¼zerinden iÅŸlemi gerÃ§ekleÅŸtiririz.    */
+		şeklinde yazarsak i ve m1 static olmadığı için hata verir
+		o yüzden A sınıfından bir nesne oluşturup o nesne üzerinden işlemi gerçekleştiririz.    */
 	}
 
 	public void m1(){

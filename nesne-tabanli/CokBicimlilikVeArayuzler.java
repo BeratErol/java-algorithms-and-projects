@@ -1,4 +1,4 @@
-﻿
+
 public class CokBicimlilikVeArayuzler {
 
 	public static void main(String[] args) {
@@ -38,7 +38,7 @@ class Kaplan extends Hayvan{
 }
 
 abstract class Meyve implements Yenilebilir{
-	// Veri alanlarÄ±, yapÄ±cÄ±lar ve metotlar...
+	// Veri alanları, yapıcılar ve metotlar...
 }
 
 class Elma extends Meyve {
@@ -56,7 +56,7 @@ class Portakal extends Meyve{
 }
 
 interface Yenilebilir{
-	// NasÄ±l yenileceÄŸini tanÄ±mla
+	// Nasıl yenileceğini tanımla
 	public abstract String nasilYenir();
 }
 

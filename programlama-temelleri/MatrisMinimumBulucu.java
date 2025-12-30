@@ -1,4 +1,4 @@
-﻿
+
 public class MatrisMinimumBulucu–dev5a {
 
 	public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class MatrisMinimumBulucu–dev5a {
 			}
 		}
 			
-		System.out.println("En kÃ¼Ã§Ã¼k eleman: " + enKucuk + "\nÄ°ndisler: SatÄ±r " + satir + ", SÃ¼tun " + sutun);
+		System.out.println("En küçük eleman: " + enKucuk + "\nİndisler: Satır " + satir + ", Sütun " + sutun);
 		
 	}
 

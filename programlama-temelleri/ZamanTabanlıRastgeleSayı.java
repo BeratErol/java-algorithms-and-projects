@@ -1,12 +1,12 @@
-﻿
+
 public class ZamanTabanlıRastgeleSayı {
 public static void main (String[] args) {
 	
-	/*milisaniye 1/1000 demektir bu yÃ¼zden 10'a gÃ¶re modunu istersek tek haneli 100'e gÃ¶re modunu istersek Ã§ift haneli
+	/*milisaniye 1/1000 demektir bu yüzden 10'a göre modunu istersek tek haneli 100'e göre modunu istersek çift haneli
 	verir vb.*/
-	//(System.currentTimeMillis()); bize milisaniyede geÃ§en zamana gÃ¶re rastgele bir sayÄ± verir.
+	//(System.currentTimeMillis()); bize milisaniyede geçen zamana göre rastgele bir sayı verir.
 	
-	int a = (int)(System.currentTimeMillis()) ; //int aralÄ±ÄŸÄ±na sÄ±ÄŸmadÄ±ÄŸÄ± iÃ§i -'li verir.
+	int a = (int)(System.currentTimeMillis()) ; //int aralığına sığmadığı içi -'li verir.
 	System.out.println(a);
 	
 	long b = (long)(System.currentTimeMillis()) ; 
@@ -15,7 +15,7 @@ public static void main (String[] args) {
 	double c = (double)(System.currentTimeMillis()) ;
 	System.out.println(c);
 	
-	int d = (int)(System.currentTimeMillis() % 10) ; //d=(System.currentTimeMillis() % 10); ÅŸeklinde yazamayÄ±z tanÄ±mlamalÄ±yÄ±z.
+	int d = (int)(System.currentTimeMillis() % 10) ; //d=(System.currentTimeMillis() % 10); şeklinde yazamayız tanımlamalıyız.
 	System.out.println(d);
 	
 	int e = (int)(System.currentTimeMillis() / 7 % 10);

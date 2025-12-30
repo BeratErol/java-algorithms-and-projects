@@ -1,13 +1,13 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 public class OzellestirilmisYazdirma {
 
 	public static void main(String[] args) {
 		 
 		Scanner gir = new Scanner (System.in);
-		System.out.println("MesajÄ± giriniz: ");
+		System.out.println("Mesajı giriniz: ");
 		String mesaj = gir.nextLine();
 		
-		System.out.println("KaÃ§ kez yazdÄ±rÄ±lsÄ±n: ");
+		System.out.println("Kaç kez yazdırılsın: ");
 		int n = gir.nextInt();
 		
 		mesajYazdir(n,mesaj," \n");

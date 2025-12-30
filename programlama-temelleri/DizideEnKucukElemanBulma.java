@@ -1,4 +1,4 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 
 public class DizideEnKucukElemanBulma {
 
@@ -13,17 +13,17 @@ public class DizideEnKucukElemanBulma {
 	}
 		
 	int enKucuk = sayilar[0];
-	int enKucukIndÄ±s = 0;
+	int enKucukIndıs = 0;
 	for(int i=1; i<sayilar.length; i++) {
 		if(enKucuk>sayilar[i]) {
 			enKucuk = sayilar[i];
-			enKucukIndÄ±s=i;          
+			enKucukIndıs=i;          
 			}
 		}
 	
-	System.out.println("En kÃ¼Ã§Ã¼k sayi = " + enKucuk);
+	System.out.println("En küçük sayi = " + enKucuk);
 	
-	System.out.println("Ä°ndis = " + enKucukIndÄ±s);
+	System.out.println("İndis = " + enKucukIndıs);
 	}
 
 }

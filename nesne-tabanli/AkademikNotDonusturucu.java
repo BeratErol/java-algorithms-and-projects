@@ -1,10 +1,10 @@
-﻿
+
 public class AkademikNotDonusturucu {
 
 	public static void main(String[] args) {
 		
-		System.out.print("Not deÄŸeri: " + notGetir(78.5));
-		System.out.print("\nNot deÄŸeri: " + notGetir(59.5));
+		System.out.print("Not değeri: " + notGetir(78.5));
+		System.out.print("\nNot değeri: " + notGetir(59.5));
 	}
 
 	public static char notGetir(double dersnotu) {

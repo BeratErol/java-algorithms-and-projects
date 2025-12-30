@@ -1,5 +1,5 @@
-﻿// YarÄ±Ã§apÄ±n girilmesiyle dairenin alan hesabÄ± 
-// Final deÄŸiÅŸkenini Ã¶ÄŸrenme
+// Yarıçapın girilmesiyle dairenin alan hesabı 
+// Final değişkenini öğrenme
 
 import java.util.Scanner;   // Scanner is in the java.util package 
 
@@ -7,7 +7,7 @@ public class SabitDegiskenMantıgı {
 	public static void main (String[] args) { 
     final double PI = 3.14159;    // Declare a constant 
     /* if (PI>0)
-	PI++;   PI'yi final deÄŸiÅŸkeninde sabit olarak tanÄ±mladÄ±ÄŸÄ±mÄ±z iÃ§in deÄŸiÅŸtirmeye Ã§alÄ±ÅŸtÄ±ÄŸÄ±mÄ±zda hata verir. */
+	PI++;   PI'yi final değişkeninde sabit olarak tanımladığımız için değiştirmeye çalıştığımızda hata verir. */
     
     // Create a Scanner object 
 	Scanner input = new Scanner(System.in);

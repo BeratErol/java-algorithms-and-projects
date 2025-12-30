@@ -1,9 +1,9 @@
-﻿
+
 public class MetinUzunluguVeBirlestirme¶zellikleri {
 
 	public static void main(String[] args) {
 	
-		String mesaj = "Merhaba DÃ¼nya";
+		String mesaj = "Merhaba Dünya";
 		
 		System.out.println(mesaj + " mesajinin uzunlugu " + mesaj.length() + " dir.");
 		

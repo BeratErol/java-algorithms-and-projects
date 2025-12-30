@@ -1,4 +1,4 @@
-﻿
+
 import java.util.Scanner;
 public class GunIsmiSorgulama {
 
@@ -11,11 +11,11 @@ public class GunIsmiSorgulama {
 		switch(gun) {
 		case 0 : System.out.println("Bugun gunlerden Pazartesi");
 				break;
-		case 2 : System.out.println("Bugun gunlerden SalÄ±");
+		case 2 : System.out.println("Bugun gunlerden Salı");
 				break;
-		case 3 : System.out.println("Bugun gunlerden Ã‡arÅŸamba");
+		case 3 : System.out.println("Bugun gunlerden Çarşamba");
 				break;
-		case 4 : System.out.println("Bugun gunlerden PerÅŸembe");
+		case 4 : System.out.println("Bugun gunlerden Perşembe");
 				break;
 		case 5 : System.out.println("Bugun gunlerden Cuma");	
 				break;
@@ -23,7 +23,7 @@ public class GunIsmiSorgulama {
 				break;
 		case 7 : System.out.println("Bugun gunlerden Pazar");	
 				break;
-		default : System.out.println("Lutfen geÃ§erli bir sayi giriniz");
+		default : System.out.println("Lutfen geçerli bir sayi giriniz");
 				System.exit(1);
 		}
 	}

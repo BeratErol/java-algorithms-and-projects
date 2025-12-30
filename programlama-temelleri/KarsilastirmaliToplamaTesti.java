@@ -1,4 +1,4 @@
-﻿
+
 import java.util.Scanner;
 
 public class KarsilastirmaliToplamaTesti {
@@ -7,7 +7,7 @@ public class KarsilastirmaliToplamaTesti {
 		int sayi2 = (int)(System.currentTimeMillis() / 7 % 10);
 		int sayi3 = (int)(System.currentTimeMillis());
 				
-		//Scanner oluÅŸturma (klavyeden/konsoldan giriÅŸ iÃ§in)
+		//Scanner oluşturma (klavyeden/konsoldan giriş için)
 		Scanner input = new Scanner (System.in);
 		
 		System.out.println(sayi3);
@@ -16,8 +16,8 @@ public class KarsilastirmaliToplamaTesti {
 		int cevap = input.nextInt();
 		
 		System.out.println(sayi1 + " + " + sayi2 + " = " + cevap + " sonucu " + (sayi1 + sayi2 == cevap));
-		//(sayi1 + sayi2 == cevap) ifadesi karÅŸÄ±laÅŸtÄ±rma yapÄ±p true false veriyor.)
-		//sayi1 + sayi2 cevabe eÅŸitse true deÄŸilse false.
+		//(sayi1 + sayi2 == cevap) ifadesi karşılaştırma yapıp true false veriyor.)
+		//sayi1 + sayi2 cevabe eşitse true değilse false.
 	}
 }
 

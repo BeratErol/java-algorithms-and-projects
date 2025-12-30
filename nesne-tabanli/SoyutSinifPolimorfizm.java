@@ -1,4 +1,4 @@
-﻿
+
 public class SoyutSinifPolimorfizm {
 
 	public static void main(String[] args) {
@@ -10,16 +10,16 @@ public class SoyutSinifPolimorfizm {
 		
 		// Cemberi goster
 		gosterTemelGeometrikSekil(geoNesne1);
-		// DiktÃ¶rgeni goster
+		// Diktörgeni goster
 		gosterTemelGeometrikSekil(geoNesne2);
 	}
 		
-		// Iki geometrik nesnenin alanÄ±nÄ± karÅŸÄ±laÅŸtÄ±ran metot
+		// Iki geometrik nesnenin alanını karşılaştıran metot
 		public static boolean esitAlan(TemelGeometrikSekil nesne1,TemelGeometrikSekil nesne2) {
 			return nesne1.getAlan() == nesne2.getAlan();
 		}
 		
-		// Geometrik nesneyi gÃ¶steren metot
+		// Geometrik nesneyi gösteren metot
 		public static void gosterTemelGeometrikSekil(TemelGeometrikSekil nesne) {
 			System.out.println();
 			System.out.println("Alan: " + nesne.getAlan());

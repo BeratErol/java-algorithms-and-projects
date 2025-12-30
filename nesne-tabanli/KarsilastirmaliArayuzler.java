@@ -1,4 +1,4 @@
-﻿
+
 public class KarsilastirmaliArayuzler {
 
 	public String metot1() {
@@ -11,7 +11,7 @@ class sinifB extends sinifA implements ArayuzA{
 		return "Merhaba SinifB";
 	}
 	public String metot2() {
-		return "YapÄ±labilir SinifB";
+		return "Yapılabilir SinifB";
 	}
 	
 }
@@ -22,13 +22,13 @@ interface ArayuzA{
 
 abstract class SinifD implements ArayuzA{
 	public String metot2() {
-		return "YapÄ±labilir SinifD";
+		return "Yapılabilir SinifD";
 	}
 }
 
 class SinifE extends SinifD{
 	public String metot2() {
-		return "YapÄ±labilir SinifE";
+		return "Yapılabilir SinifE";
 	}
 }
 

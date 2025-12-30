@@ -1,4 +1,4 @@
-﻿
+
 public class DiziOrtalamaAnalizi {
 	public static void main(String[] args) {
 		
@@ -17,13 +17,13 @@ public class DiziOrtalamaAnalizi {
 		
 	double ortalama = toplam / n ;
 	
-	int sayac=0; // ortalamanin Ã¼stÃ¼ndeki eleman sayisi
+	int sayac=0; // ortalamanin üstündeki eleman sayisi
 	for (int i=0; i<n; i++)
 		if(sayilar[i]>ortalama)
 			sayac++;
 	
 	System.out.println("Ortalama: " + ortalama);
-	System.out.println("Ortalamanin Ã¼stÃ¼ndeki eleman sayisi: " + sayac);
+	System.out.println("Ortalamanin üstündeki eleman sayisi: " + sayac);
 	}
 
 }

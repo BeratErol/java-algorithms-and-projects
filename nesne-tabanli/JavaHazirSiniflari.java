@@ -1,5 +1,5 @@
-﻿
-public class JavaHazirSiniflari¼tÃ¼phanesiSiniflari {
+
+public class JavaHazirSiniflari¼tüphanesiSiniflari {
 
 	public static void main(String[] args) {
 		
