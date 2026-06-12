@@ -2,7 +2,7 @@
 
 ### *Comprehensive Java Portfolio*
 
-Bu depo, **Java programlama dilinde** temel sözdizimi (syntax) kurallarından başlayarak, ileri seviye **Nesne Tabanlı Programlama (OOP)** prensiplerine ve **kapsamlı masaüstü uygulamalarına** kadar uzanan geniş bir yelpazeyi kapsar.
+Bu depo, **Java programlama dili bütününde** temel sözdizimi (syntax) kurallarından başlayarak, ileri seviye **Nesne Tabanlı Programlama (OOP)** prensiplerine ve **kapsamlı masaüstü uygulamalarına** kadar uzanan geniş bir yelpazeyi kapsar.
 
 Her bir çalışma;
 
@@ -16,7 +16,7 @@ amacıyla yapılandırılmıştır.
 
 ## 📂 Depo Yapısı ve Müfredat
 
-Repo, **öğrenme eğrisine uygun** olacak şekilde üç ana bölümde organize edilmiştir:
+Repo, **öğrenme eğrisine uygun** olacak şekilde dört ana bölümde organize edilmiştir:
 
 ---
 
@@ -25,7 +25,6 @@ Repo, **öğrenme eğrisine uygun** olacak şekilde üç ana bölümde organize 
 Java’nın çekirdek özelliklerini ve temel algoritma mantığını kapsayan **120+ uygulama** içerir.
 
 **📌 İçerik**
-
 * Değişkenler ve veri tipleri
 * Döngüler (`for`, `while`, `do-while`)
 * Diziler (1D & 2D)
@@ -33,7 +32,6 @@ Java’nın çekirdek özelliklerini ve temel algoritma mantığını kapsayan *
 * Bellek yönetimi (Stack / Heap farkı)
 
 **🎯 Odak**
-
 * Temiz ve okunabilir kod yazımı
 * Doğru veri tipi seçimi
 * Performanslı döngü ve kontrol yapıları kurma
@@ -45,14 +43,12 @@ Java’nın çekirdek özelliklerini ve temel algoritma mantığını kapsayan *
 Yazılımın **sürdürülebilir**, **genişletilebilir** ve **modüler** olmasını sağlayan OOP prensiplerine odaklanır.
 
 **📌 İçerik**
-
 * Kalıtım (*Inheritance*)
 * Çok Biçimlilik (*Polymorphism*)
 * Soyutlama (*Abstraction*)
 * Kapsülleme (*Encapsulation*)
 
 **🎯 Odak**
-
 * Gerçek dünya problemlerini nesne modellerine dönüştürme
 * Hata yönetimi (*Exception Handling*)
 * Sorumlulukları doğru sınıflara dağıtma
@@ -72,19 +68,16 @@ Temel ve ileri seviye konuların birleştirildiği, **uçtan uca geliştirilmiş
 Java **Swing** kütüphanesi ile geliştirilmiş, **tam işlevli bir masaüstü otomasyon sistemidir**.
 
 **🏗️ Mimari**
-
 * MVC (Model–View–Controller) yaklaşımına yakın yapı
 * İş mantığı: `LibraryManager`
 * Sunum katmanı: `ModernLibraryGUI`
 
 **⚙️ Fonksiyonlar**
-
 * `java.time` API ile **14 günlük ödünç süresi takibi**
 * Dinamik arama ve filtreleme
 * Kategori bazlı istatistik ve raporlama
 
 **🧩 Teknik Detaylar**
-
 * Koleksiyonlar: `ArrayList`, `HashMap`
 * Olay tabanlı programlama (*Event Handling*)
 * JTable ile veri görselleştirme
@@ -96,18 +89,15 @@ Java **Swing** kütüphanesi ile geliştirilmiş, **tam işlevli bir masaüstü 
 Matris işlemleri ve **özyinelemeli (recursive) algoritmalar** üzerine kurulu bir strateji oyunudur.
 
 **🧠 Çözüm Yaklaşımı**
-
 * Kullanıcının seçtiği koordinatın çevresi
 * Recursive fonksiyon ile **zincirleme hücre taraması**
 * Aynı değere sahip komşu hücrelerin tespiti
 
 **📂 Veri Yönetimi**
-
 * Oyun haritası, harici **`.txt` dosyalarından** dinamik olarak yüklenir
 * `BufferedReader` ile dosya okuma işlemleri
 
 **🛡️ Hata Denetimi**
-
 * Matris sınır taşmaları (*Boundary Checking*)
 * Özyineleme derinliği kontrolü
 * Sonsuz döngü risklerinin önlenmesi
@@ -119,20 +109,24 @@ Matris işlemleri ve **özyinelemeli (recursive) algoritmalar** üzerine kurulu 
 Bu projelerin geliştirilmesi sürecinde aşağıdaki alanlarda uzmanlık hedeflenmiştir:
 
 * **Algoritma Tasarımı**
-
-  Karmaşık problemleri alt problemlere bölme ve recursive çözümleme
+  Karmaşık problemleri alt problemlere bölme ve recursive çözümleme.
 
 * **Dosya I/O**
-
-  Metin dosyalarından veri okuma ve verileri matris yapılarına dönüştürme
+  Metin dosyalarından veri okuma ve verileri matris yapılarına dönüştürme.
 
 * **Kullanıcı Deneyimi (UX)**
-
-  Masaüstü uygulamalarında kullanıcı dostu arayüzler ve etkili hata geri bildirimleri
+  Masaüstü uygulamalarında kullanıcı dostu arayüzler ve etkili hata geri bildirimleri.
 
 * **Akademik Raporlama**
+  Geliştirme sürecini, karşılaşılan problemleri ve çözüm yaklaşımlarını dokümante etme.
 
-  Geliştirme sürecini, karşılaşılan problemleri ve çözüm yaklaşımlarını dokümante etme
+---
+
+## 📜 Eğitim ve Başarı Sertifikaları
+
+Gelişim sürecimi desteklemek ve teknik yetkinliklerimi uluslararası standartlarda belgelemek adına tamamladığım resmi eğitim programları:
+
+* **[BTK Akademi | JAVA ile Programlamaya Giriş](./egitim-ve-sertifika):** Java dilinin temelleri, nesne yönelimli programlama (OOP) ilkeleri, bellek yönetimi ve hata yakalama yaklaşımları üzerine kurulu resmi kurumsal eğitim sertifikasıdır. Detaylara, katılım raporlarına ve sertifika doğrulama kodlarına **[egitim-ve-sertifika](./egitim-ve-sertifika)** klasöründen erişebilirsiniz.
 
 ---
 
