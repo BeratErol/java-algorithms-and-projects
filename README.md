@@ -124,7 +124,7 @@ Bu projelerin geliştirilmesi sürecinde aşağıdaki alanlarda uzmanlık hedefl
 
 ## 📜 Eğitim ve Başarı Sertifikaları
 
-Gelişim sürecimi desteklemek ve teknik yetkinliklerimi uluslararası standartlarda belgelemek adına tamamladığım resmi eğitim programları:
+Gelişim sürecimi desteklemek ve teknik yetkinliklerimi belgelemek adına tamamladığım resmi eğitim programı:
 
 * **[BTK Akademi | JAVA ile Programlamaya Giriş](./egitim-ve-sertifika):** Java dilinin temelleri, nesne yönelimli programlama (OOP) ilkeleri, bellek yönetimi ve hata yakalama yaklaşımları üzerine kurulu resmi kurumsal eğitim sertifikasıdır. Detaylara, katılım raporlarına ve sertifika doğrulama kodlarına **[egitim-ve-sertifika](./egitim-ve-sertifika)** klasöründen erişebilirsiniz.
 
